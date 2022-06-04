@@ -1,14 +1,15 @@
 ---
 date: '2018-05-01'
-title: 'blistabloc'
+title: 'Artificial Intelligence(AI) Event held by Addis Ababa University (AAU)'
 github: ''
-external: 'https://blistabloc.com/'
+external: 'https://iltt.aau.edu.et/'
 tech:
   - WordPress
-  - Timber
-  - WooCommerce
-company: 'Scout'
-showInProjects: false
+  - Elementor
+  - Content Writing
+  - UX Writing
+company: 'Addis Ababa University'
+showInProjects: true
 ---
 
-Custom WordPress theme and e-commerce site built with Timber and WooCommerce for blistabloc, a start-up selling the only reactive shoe insert that prevents blisters from forming.
+Website that showcased the first-ever hosted event for Artificial Intelligence(AI) in Ethiopia.

@@ -1,13 +1,12 @@
 ---
-date: '2017-12-21'
-title: 'UI Engineer Co-op'
-company: 'Apple'
-location: 'Cupertino, CA'
-range: 'July - December 2017'
-url: 'https://www.apple.com/music/'
+date: '2017-10-12'
+title: 'UX Writer'
+company: 'Addis Software'
+location: 'Ethiopia, Addis Ababa'
+range: 'October 2019 - December 2020'
+url: 'https://addissoftware.com/'
 ---
 
-- Developed and shipped highly interactive web applications for Apple Music using Ember.js
-- Built and shipped the Apple Music Extension within Facebook Messenger leveraging third-party and internal APIs
-- Architected and implemented the front-end of Apple Music's embeddable web player widget, which lets users log in and listen to full songs in the browser
-- Contributed extensively to MusicKit.js, a JavaScript framework that allows developers to add an Apple Music player to their web apps
+- Maintain the Company’s [knowledgebase](https://addissoftware.com/blog/) of over **8** articles.
+- Create user guides, manuals, and documentation for over **4** in-house apps.
+- Solely build the most SEO Optimized content for the company’s product, [Banks in Ethiopia](https://banksethiopia.com/), which generates over **50k** views per month due to organic SEO.

@@ -1,14 +1,14 @@
 ---
 date: '2017-11-01'
-title: 'Apple Music Facebook Messenger Integration'
+title: 'Salla Developer Documentation'
 github: ''
-external: 'https://www.theverge.com/2017/10/5/16433770/facebook-messenger-apple-music-bot-song-streaming'
+external: 'https://docs.salla.dev/'
 tech:
-  - Ember
-  - JS
-  - SCSS
-company: 'Apple'
+  - JSON
+  - Markdown
+  - Stoplight
+company: 'Salla'
 showInProjects: true
 ---
 
-Facebook Messenger chat bot extension featuring authentication and full song streaming from within the Messenger app. Read more about it on [The Verge](https://www.theverge.com/2017/10/5/16433770/facebook-messenger-apple-music-bot-song-streaming).
+The official developer documentation of Salla Developers, where over **15,000** active stores are using its set of **197** various APIs.

@@ -1,16 +1,21 @@
 ---
 date: '3'
-title: 'Build a Spotify Connected App'
-cover: './course-card.png'
-external: 'https://www.newline.co/courses/build-a-spotify-connected-app'
-cta: 'https://www.newline.co/courses/build-a-spotify-connected-app'
+title: 'CovidET Mitigation Software'
+cover: './CleanShot 2022-06-02 at 16.14.05@2x.png'
+external: 'https://covidet-app.netlify.app/'
+cta: 'https://www.youtube.com/watch?v=ch8Lx-b0-8E'
 tech:
-  - React
-  - Express
-  - Spotify API
-  - Styled Components
+  - Flutter
+  - Dart
+  - Firebase
+  - VueJS
+  - Vuetify
+  - AWS
+  - Google Map
+  - DeveloperHere Technologies
+  - Africa's Talking SMS & USSD APIs
 ---
 
-Having struggled with understanding how the Spotify OAuth flow works, I made the course I wish I could have had.
+COVID19 hit the world, and Ethiopia was no exception. On top of that, the country was going through many hurdles internally, and that doubled with the pandemic.
 
-Unlike tutorials that only cover a few concepts and leave you with half-baked GitHub repositories, this course covers everything from explaining the principles of REST APIs to implementing Spotify's OAuth flow and fetching API data in a React app. By the end of the course, you’ll have an app deployed to the internet you can add to your portfolio.
+I had the chance not to only write content to both the [website](https://covidet-app.netlify.app/), [admin's dashboard](pims-dashboard.netlify.app), and [mobile app](https://covidet64.s3.eu-west-2.amazonaws.com/05-05-2020/Covidet_v1.0.0-arm64-v8a.apk) (Content & UX Writing), but also had the chance to build and develop some components of the innovative intervention that eventually led to us winning several locally and internationally awards.

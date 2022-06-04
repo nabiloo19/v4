@@ -1,15 +1,17 @@
 ---
 date: '1'
-title: 'Halcyon Theme'
+title: 'Salla Developers API Documentation'
 cover: './halcyon.png'
-github: 'https://github.com/bchiang7/halcyon-site'
-external: 'https://halcyon-theme.netlify.com/'
+external: 'https://docs.salla.dev/'
 tech:
-  - VS Code
-  - Sublime Text
-  - Atom
-  - iTerm2
-  - Hyper
+  - API
+  - JSON
+  - Markdown
+  - Stoplight
 ---
 
-A minimal, dark blue theme for VS Code, Sublime Text, Atom, iTerm, and more. Available on [Visual Studio Marketplace](https://marketplace.visualstudio.com/items?itemName=brittanychiang.halcyon-vscode), [Package Control](https://packagecontrol.io/packages/Halcyon%20Theme), [Atom Package Manager](https://atom.io/themes/halcyon-syntax), and [npm](https://www.npmjs.com/package/hyper-halcyon-theme).
+The [official developer documentation](https://docs.salla.dev/) of Salla Developers, where over **15,000** active stores are using its set of **197** various APIs.
+
+Not only that, but also writing [blogs](https://salla.dev/blog) and [tutorials](https://salla.dev/tutorial) that demonstrate the extensibility and of the API that powers the developers to build on top of the e-commerce platform.
+
+That gave me the power to be a developer advocate in the [Salla Community](https://t.me/salladev) to help supporting the user journey when integrating their services or building their apps on [Salla](https://salla.sa/).

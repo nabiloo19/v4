@@ -1,15 +1,20 @@
 ---
 date: '2019-11-12'
-title: 'Building a Headless Mobile App CMS From Scratch'
+title: 'Open Art Space Renovation Website - Syria'
 github: ''
-external: 'https://medium.com/stories-from-upstatement/building-a-headless-mobile-app-cms-from-scratch-bab2d17744d9'
+external: 'https://openartspace.net/'
 tech:
-  - Node
-  - Express
-  - Firebase
-  - Vue
-company: 'Upstatement'
+  - VueJS
+  - Vuetify
+  - Django
+  - Digital Ocean
+  - Docker
+  - Traefik
+  - Google Analytics
+  - Content Writing
+  - UX Writing
+company: 'OAS ORG'
 showInProjects: true
 ---
 
-Find out how we built a custom headless CMS with Node, Express, and Firebase for a project at Upstatement
+Full Stack end-to-end renovation website for the Open Art Space, with [Front End](https://openartspace.net/), [Backend](http://backend.openartspace.net/oas/), [Admin](https://dashboard.openartspace.net/), and [Analytics](http://analytics.openartspace.net/).

@@ -1,14 +1,17 @@
 ---
 date: '2017-12-01'
-title: 'Apple Music Embeddable Web Player Widget'
+title: 'Covid19 Mobile Application Landing Page'
 github: ''
-external: 'https://tools.applemusic.com/en-us'
+external: 'https://covidet-app.netlify.app/'
 tech:
-  - MusicKit.js
+  - HTML
+  - CSS
   - JS
-  - SCSS
-company: 'Apple'
+  - Bootstrap
+  - Content Writing
+  - UX Writing
+company: 'Personal'
 showInProjects: true
 ---
 
-Embeddable web player widget for Apple Music that lets users log in and listen to full song playback in the browser leveraging [MusicKit.js](https://developer.apple.com/documentation/musickitjs). Read more about this project on [9to5Mac](https://9to5mac.com/2018/06/03/apple-music-embeddable-web-player-listen-browser/).
+The one-stop destination for reliable information in fighting against COVID-19. The mobile application combines a number of features that makes it stand-out. An All-in-One app that serves every purpose, situation and circumistance.

@@ -1,12 +1,13 @@
 ---
 date: '2018-04-01'
-title: 'Studio Developer'
-company: 'Scout'
-location: 'Northeastern University'
-range: 'January - April 2018'
-url: 'https://web.northeastern.edu/scout/'
+title: 'Project Manager | Content Creator | Dev Rel'
+company: 'GDGAddis'
+location: 'Ethiopia, Addis Ababa'
+range: 'August 2018 - Present'
+url: 'https://gdgaddis.dev/'
 ---
 
-- Worked with a team of three designers to build a marketing website and e-commerce platform for [blistabloc](https://blistabloc.com), an ambitious startup originating from Northeastern
-- Helped solidify a brand direction for blistabloc that spans both packaging and web
-- Interfaced with clients on a weekly basis, providing technological expertise
+- Planned, designed, and organized **50+** unprecedented [technological events](https://gdg.community.dev/gdg-addis/), previously on [Meetup](https://www.meetup.com/GDG-Addis/).
+- Promoted all [social media](https://www.gdgaddis.dev/contact) accounts for events and regular knowledge.
+- Developed and maintained several [open-source projects](https://github.com/GDG-Addis).
+- Coordinate and lead **2** of the largest local Ethiopian Developer Communities.

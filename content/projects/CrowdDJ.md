@@ -1,14 +1,20 @@
 ---
 date: '2017-03-01'
-title: 'Crowd DJ'
-github: 'https://github.com/crowddj/crowddj-react'
-external: ''
+title: 'Books Console Web Application'
+github: 'https://github.com/nabiloo19/Mabookies'
+external: 'http://mabookies.web.app'
 tech:
-  - React
+  - Vue
+  - Vuex
+  - Vue-Router
+  - Axios
+  - Bootstrap
   - Firebase
-  - Spotify API
-company: HackBeanpot 2017
-showInProjects: false
+  - Google API
+  - Font Awesome
+  - PWA
+company: Personal
+showInProjects: true
 ---
 
-Web app that allows people to crowdsource a party's music queue. Allows people to request songs, upvote songs, rate songs, etc. so the DJ can see how the crowd is feeling and queue songs accordingly. Won Best UI/UX Design at Hackbeanpot 2017.
+One stop for books, with segments curated for personal use. Built with Vue, Bootstrap, Firebase ,Google API, Vuex, Vue-Router, Axios and Fontawsome. It supports PWA, so install it and start using the webapp as a mobile application.

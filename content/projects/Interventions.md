@@ -1,14 +1,14 @@
 ---
 date: '2017-08-01'
-title: 'Interventions'
-github: ''
-external: 'https://interventions.design/'
+title: 'Sabaain Platform for Women Empowerment - Sweden'
+external: 'http://sabaain.org/'
 tech:
-  - Jekyll
-  - SCSS
-  - JS
-company: 'Scout'
-showInProjects: false
+  - Wordpress
+  - Elementor
+  - Content Writing
+  - UX Writing
+company: 'Sabaain ORG'
+showInProjects: true
 ---
 
-Interactive marketing website for Northeastern's first annual student-led design conference, Interventions.
+The central information regarding the latest news, updates, events, laws and more in Sweden.

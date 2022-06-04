@@ -1,12 +1,13 @@
 ---
 date: '2018-12-29'
-title: 'Google Keep Clone'
-github: 'https://github.com/bchiang7/google-keep-vue-firebase'
-external: 'https://keep-vue.netlify.com/'
+title: 'Banks in Ethiopia Content'
+external: 'https://banksethiopia.com/'
 tech:
-  - Vue
-  - Firebase
+  - Content Writing
+  - UX Writing
+
+company: 'Addis Software PLC'
 showInProjects: true
 ---
 
-A simple Google Keep clone built with Vue and Firebase.
+Banksethiopia.com is a website to make bank related decisions easier by comparing currency exchange rates, diaspora related benefits, loan interest, saving interest, in technical depth to choose the best banks in Ethiopia.

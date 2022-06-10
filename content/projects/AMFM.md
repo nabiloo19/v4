@@ -1,5 +1,5 @@
 ---
-date: '2017-11-01'
+date: '2021-11-01'
 title: 'Salla Developer Documentation'
 github: ''
 external: 'https://docs.salla.dev/'

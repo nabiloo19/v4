@@ -1,5 +1,5 @@
 ---
-date: '2019-11-12'
+date: '2021-01-01'
 title: 'Open Art Space Renovation Website - Syria'
 github: ''
 external: 'https://openartspace.net/'

@@ -1,5 +1,5 @@
 ---
-date: '2016-01-01'
+date: '2020-01-01'
 title: 'Tech Camp Ethiopia Website'
 github: 'https://github.com/GDG-Addis/TechCampEthiopia'
 external: 'https://techcamp.gdgaddis.dev/'

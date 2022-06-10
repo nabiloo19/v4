@@ -1,5 +1,5 @@
 ---
-date: '2018-12-29'
+date: '2019-12-29'
 title: 'Banks in Ethiopia Content'
 external: 'https://banksethiopia.com/'
 tech:

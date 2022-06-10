@@ -1,5 +1,5 @@
 ---
-date: '2017-12-01'
+date: '2020-12-01'
 title: 'Covid19 Mobile Application Landing Page'
 github: ''
 external: 'https://covidet-app.netlify.app/'

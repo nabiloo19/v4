@@ -1,5 +1,5 @@
 ---
-date: '2018-05-01'
+date: '2019-05-01'
 title: 'Artificial Intelligence(AI) Event held by Addis Ababa University (AAU)'
 github: ''
 external: 'https://iltt.aau.edu.et/'

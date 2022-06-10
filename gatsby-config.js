@@ -4,9 +4,9 @@ module.exports = {
   siteMetadata: {
     title: 'Nabil Mohammed',
     description: '',
-    siteUrl: '', // No trailing slash allowed!
+    siteUrl: 'https://nabiloo.netlify.app/', // No trailing slash allowed!
     image: '/og.png', // Path to your image you placed in the 'static' folder
-    twitterUsername: '',
+    twitterUsername: '@alanssinabil19',
   },
   plugins: [
     `gatsby-plugin-react-helmet`,

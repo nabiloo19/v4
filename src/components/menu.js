@@ -74,7 +74,7 @@ const StyledHamburgerButton = styled.button`
       top: ${props => (props.menuOpen ? `0` : `-10px`)};
       opacity: ${props => (props.menuOpen ? 0 : 1)};
       transition: ${({ menuOpen }) =>
-    menuOpen ? 'var(--ham-before-active)' : 'var(--ham-before)'};
+        menuOpen ? 'var(--ham-before-active)' : 'var(--ham-before)'};
     }
     &:after {
       width: ${props => (props.menuOpen ? `100%` : `80%`)};
@@ -246,7 +246,8 @@ const Menu = () => {
           onClick={toggleMenu}
           menuOpen={menuOpen}
           ref={buttonRef}
-          aria-label="Menu">
+          aria-label="Menu"
+        >
           <div className="ham-box">
             <div className="ham-box-inner" />
           </div>
@@ -266,7 +267,7 @@ const Menu = () => {
               </ol>
             )}
 
-            <a href="/resume.pdf" className="resume-link">
+            <a href="/test1.pdf" className="resume-link">
               Resume
             </a>
           </nav>

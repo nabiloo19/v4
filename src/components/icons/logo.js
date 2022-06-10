@@ -5,7 +5,7 @@ const IconLogo = () => (
     <title>Logo</title>
     <g transform="translate(-8.000000, -2.000000)">
       <g transform="translate(11.000000, 5.000000)">
-        <path d="" fill="currentColor" />
+        <path d="d" fill="currentColor" />
       </g>
     </g>
   </svg>

@@ -160,6 +160,10 @@ const Nav = ({ isHome }) => {
 
   const Logo = (
     <div className="logo" tabIndex="-1">
+      <a href="/" aria-label="home">
+        Home
+      </a>
+
       {isHome ? (
         <a href="/" aria-label="home">
           <IconLogo />

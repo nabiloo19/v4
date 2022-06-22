@@ -59,7 +59,14 @@ const Hero = () => {
   }, []);
 
   const one = <h1>Hi, my name is</h1>;
-  const two = <h2 className="big-heading">Nabil Mohammed.</h2>;
+  const two = (
+    <h2 className="big-heading">
+      <a href="https://linktr.ee/nabiloo" target="_blank">
+        Nabil Mohammed
+      </a>
+      .
+    </h2>
+  );
   const three = <h3 className="big-heading">I write stuff for the public.</h3>;
   const four = (
     <>

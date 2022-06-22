@@ -105,7 +105,7 @@ const Footer = () => {
       </StyledSocialLinks>
 
       <StyledCredit tabindex="-1">
-        <a href="https://github.com/nabiloo19/v4">
+        <a href="https://linktr.ee/nabiloo">
           <div>By Nabil Mohammed</div>
         </a>
       </StyledCredit>

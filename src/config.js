@@ -37,6 +37,10 @@ module.exports = {
       name: 'Contact',
       url: '/#contact',
     },
+    {
+      name: 'Social',
+      url: 'https://linktr.ee/nabiloo',
+    },
   ],
 
   colors: {

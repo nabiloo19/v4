@@ -162,7 +162,7 @@ const About = () => {
               , and <a href="https://nabil-alanssi19.medium.com/">a freelance writer</a> for
               esteemed writing agencies. My main focus these days is building accessible, inclusive
               products, digital experiences, and developer-focused material at{' '}
-              <a href="https://salla.dev/">Salla </a> for E-commerce developers.
+              <a href="https://salla.dev/">Salla </a> for over 1,000 E-commerce developers.
             </p>
 
             <p>Here are a few technologies/frameworks I’ve been working with recently:</p>

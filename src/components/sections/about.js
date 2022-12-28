@@ -146,9 +146,9 @@ const About = () => {
           <div>
             <p>
               Howdy👋 My name is Nabil and I love creating content that correlates with developers.
-              with over 10 years of writing experience. I have a passion for making complex topics
+              With over 5 years of writing experience, I have a passion for making complex topics
               easier to understand by breaking them down and presenting them in a clear and concise
-              manner for any audienc
+              manner for any audience.
             </p>
 
             <p>

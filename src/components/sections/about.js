@@ -169,9 +169,9 @@ const About = () => {
 
             <p>
               When I'm not writing technical documents, I'm probably geeking out over my Video Game
-              collection or watching reruns of Friends & The Office. I love to find the humor and
-              humanity in every project I take on - no matter how complex the technical concept. My
-              goal is always to make complex concepts easier to understand and enjoy.
+              collection 🎮 or watching reruns of Friends 🍿 & The Office 🎥. I love to find the
+              humor and humanity in every project I take on - no matter how complex the technical
+              concept. My goal is always to make complex concepts easier to understand and enjoy.
             </p>
             <p>Here are a few technologies/frameworks I’ve been working with recently:</p>
           </div>

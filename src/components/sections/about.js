@@ -154,7 +154,7 @@ const About = () => {
 
             <p>
               Fast-forward to today, I’ve had the privilege of working at{' '}
-              <a href="https://gdgaddis.dev/">Google Community Group</a>,{' '}
+              <a href="https://gdg.community.dev/gdg-addis/">Google Community Group</a>,{' '}
               <a href="https://addissoftware.com/">a start-up</a>,{' '}
               <a href="https://www.kapsarc.org/">a governemtal office</a>,{' '}
               <a href="https://soundcloud.com/yemenisinexile">podcaster</a>,

@@ -2,7 +2,7 @@
 date: '2018-12-01'
 title: 'Google Developers Group in Addis Web Application'
 github: 'https://github.com/GDG-Addis/GDGAddisPlatform'
-external: 'https://www.gdgaddis.dev/'
+external: 'https://gdg.community.dev/gdg-addis/'
 tech:
   - VueJS
   - Vuetify

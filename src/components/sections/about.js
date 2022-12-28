@@ -155,6 +155,7 @@ const About = () => {
               Fast-forward to today, I’ve had the privilege of working at{' '}
               <a href="https://gdgaddis.dev/">Google Community Group</a>,{' '}
               <a href="https://addissoftware.com/">a start-up</a>,{' '}
+              <a href="https://www.kapsarc.org/">a governemtal office</a>,{' '}
               <a href="https://soundcloud.com/yemenisinexile">podcaster</a>,
               <a href="https://howtobuildup.org/programs/peace-innovators/meet-the-fellows/yemeni-diaspora-digital-steps-fellows-2020/#:~:text=Yemeni%2DSwedish%20society.-,Yemenis%20in%20Exile,-Yemenis%20In%20Exile">
                 digital conflict interventionist

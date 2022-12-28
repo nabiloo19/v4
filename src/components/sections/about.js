@@ -146,9 +146,9 @@ const About = () => {
           <div>
             <p>
               Howdy👋 My name is Nabil and I love creating content that correlates with developers.
-              My interest in technical writing started back in 2015 when I shifted focus to try out
-              writing Medium articles. And that ignited a spark in me to write more
-              technical-focused articles, blogs, tutorials, documentation, and more.
+              with over 10 years of writing experience. I have a passion for making complex topics
+              easier to understand by breaking them down and presenting them in a clear and concise
+              manner for any audienc
             </p>
 
             <p>

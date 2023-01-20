@@ -61,7 +61,7 @@ const Contact = () => {
 
       <p>
         Always happy to meet, talk and discuss with anyone interested in Technical Writing,
-        Developer Advocacy, Community and more. Send me an email and I will be there :)
+        Developer Advocacy, Community and more.
       </p>
 
       <a className="email-link" href={`mailto:${email}`}>

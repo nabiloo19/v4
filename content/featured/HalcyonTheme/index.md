@@ -10,7 +10,7 @@ tech:
   - Stoplight
 ---
 
-The [official developer documentation](https://docs.salla.dev/) of Salla Developers, where over 15,000 active stores are using its set of 197 various APIs.
+The [official developer documentation](https://docs.salla.dev/) of Salla Developers, where over 36,000 active stores are using its set of 197 various APIs.
 
 Not only that, but also writing [blogs](https://salla.dev/blog) and [tutorials](https://salla.dev/tutorial) that demonstrate the extensibility and of the API that powers the developers to build on top of the e-commerce platform.
 

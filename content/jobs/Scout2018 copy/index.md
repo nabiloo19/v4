@@ -3,7 +3,7 @@ date: '2018-04-01'
 title: 'Senior Technical Writer'
 company: 'KAPSARC'
 location: 'Riyadh, Saudi Arabia'
-range: 'Dec 2022 - Present'
+range: 'Dec 2022 - June 2022'
 url: 'https://www.kapsarc.org/'
 ---
 

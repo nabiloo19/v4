@@ -11,4 +11,4 @@ company: 'Salla'
 showInProjects: true
 ---
 
-The official developer documentation of Salla Developers, where over **36,000** active stores are using its set of **250** various APIs.
+The official developer documentation of Salla Developers, where over **45,000** active stores are using its set of **250** various APIs.

@@ -13,4 +13,4 @@ url: 'https://www.salla.dev/'
 - Conduct inspection of testing for the **250** set of APIs as of writing over **30** tutorials.
 - Work with **8** internal teams and 4 departments to obtain an in-depth understanding of the product and the documentation requirements.
 - Communicate with multi-disciplinary teams of engineers, designers, producers, and developers on a daily basis.
-- Advocating for the company’s **16** billion USD annual sales with focus on the developer community of over 456,000 active users.
+- Advocating for the company’s **16** billion USD annual sales with focus on the developer community of over 45,000 active users.

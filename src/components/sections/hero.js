@@ -70,7 +70,7 @@ const Hero = () => {
         <a href="https://salla.dev/" target="_blank" rel="noreferrer">
           Salla
         </a>
-        .
+        ..
       </p>
     </>
   );
@@ -79,9 +79,8 @@ const Hero = () => {
       className="email-link"
       href="https://www.newline.co/courses/build-a-spotify-connected-app"
       target="_blank"
-      rel="noreferrer"
-    >
-      Read More ✨
+      rel="noreferrer">
+      Read More
     </a>
   );
 

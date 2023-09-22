@@ -66,11 +66,7 @@ const Hero = () => {
       <p>
         I’m a technical writer specializing in API Documentation (<i>and occasionally designing</i>)
         as well as writing driven tech-content. Currently, I’m focused on building
-        developer-oriented, API-First products at{' '}
-        <a href="https://salla.dev/" target="_blank" rel="noreferrer">
-          Salla
-        </a>
-        ..
+        developer-oriented, API-First products.
       </p>
     </>
   );

@@ -3,7 +3,7 @@ const config = require('./src/config');
 module.exports = {
   siteMetadata: {
     title: 'Nabil Mohammed',
-    description: '',
+    description: 'Senior Technical Writer / API Docuemntation Specialist / Developer Advocate',
     siteUrl: 'https://nabiloo.tech/', // No trailing slash allowed!
     image: '/og.png', // Path to your image you placed in the 'static' folder
     twitterUsername: '@alanssinabil19',

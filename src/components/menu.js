@@ -266,7 +266,7 @@ const Menu = () => {
               </ol>
             )}
 
-            <a href="http://tiny.cc/NabilCV2023" className="resume-link">
+            <a aria-label="Resume" href="http://tiny.cc/NabilCV2023" className="resume-link">
               Resume
             </a>
           </nav>

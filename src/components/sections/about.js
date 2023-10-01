@@ -154,24 +154,48 @@ const About = () => {
 
             <p>
               Fast-forward to today, I’ve had the privilege of working at{' '}
-              <a href="https://gdg.community.dev/gdg-addis/">Google Community Group</a>,{' '}
-              <a href="https://addissoftware.com/">a start-up</a>,{' '}
-              <a href="https://www.kapsarc.org/">a governemtal research body</a>,{' '}
-              <a href="https://soundcloud.com/yemenisinexile">podcaster</a>,
-              <a href="https://howtobuildup.org/programs/peace-innovators/meet-the-fellows/yemeni-diaspora-digital-steps-fellows-2020/#:~:text=Yemeni%2DSwedish%20society.-,Yemenis%20in%20Exile,-Yemenis%20In%20Exile">
+              <a aria-label="Personal Projects" href="https://gdg.community.dev/gdg-addis/">
+                Google Community Group
+              </a>
+              ,{' '}
+              <a aria-label="Personal Projects" href="https://addissoftware.com/">
+                a start-up
+              </a>
+              ,{' '}
+              <a aria-label="Personal Projects" href="https://www.kapsarc.org/">
+                a governemtal research body
+              </a>
+              ,{' '}
+              <a aria-label="Personal Projects" href="https://soundcloud.com/yemenisinexile">
+                podcaster
+              </a>
+              ,
+              <a
+                aria-label="Personal Projects"
+                href="https://howtobuildup.org/programs/peace-innovators/meet-the-fellows/yemeni-diaspora-digital-steps-fellows-2020/#:~:text=Yemeni%2DSwedish%20society.-,Yemenis%20in%20Exile,-Yemenis%20In%20Exile">
                 digital conflict interventionist
               </a>
               , and <a href="https://nabil-alanssi19.medium.com/">a freelance writer</a> for
               esteemed writing agencies. My main focus these days is building accessible, inclusive
               products, digital experiences, and developer-focused material at{' '}
-              <a href="https://salla.dev/">Salla </a> for over <b>2,000</b> E-commerce developers.
+              <a aria-label="Personal Projects" href="https://salla.dev/">
+                Salla{' '}
+              </a>{' '}
+              for over <b>2,000</b> E-commerce developers.
             </p>
 
             <p>
               When I'm not writing technical documents, I'm probably geeking out over my Video Game
               collection 🎮 or watching reruns of{' '}
-              <a href="https://en.wikipedia.org/wiki/Friends">Friends</a> 🍿 &{' '}
-              <a href="https://en.wikipedia.org/wiki/The_Big_Bang_Theory">The Big Bang Theory</a>{' '}
+              <a aria-label="Personal Hobbies" href="https://en.wikipedia.org/wiki/Friends">
+                Friends
+              </a>{' '}
+              🍿 &{' '}
+              <a
+                aria-label="Personal Hobbies"
+                href="https://en.wikipedia.org/wiki/The_Big_Bang_Theory">
+                The Big Bang Theory
+              </a>{' '}
               🎥. I love to find the humor and humanity in every project I take on - no matter how
               complex the technical concept.
             </p>

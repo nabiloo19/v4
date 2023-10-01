@@ -61,7 +61,7 @@ const Hero = () => {
   const one = <h1>Hi, my name is</h1>;
   const two = (
     <h2 className="big-heading">
-      <a href="https://linktr.ee/nabiloo" target="_blank">
+      <a aria-label="Linktree Account" href="https://linktr.ee/nabiloo" target="_blank">
         Nabil Mohammed
       </a>
       .
@@ -77,7 +77,12 @@ const Hero = () => {
     </>
   );
   const five = (
-    <a className="email-link" href="https://linktr.ee/nabiloo" target="_blank" rel="noreferrer">
+    <a
+      aria-label="Read More"
+      className="email-link"
+      href="https://linktr.ee/nabiloo"
+      target="_blank"
+      rel="noreferrer">
       Read More ✨
     </a>
   );

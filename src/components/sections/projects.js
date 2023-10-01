@@ -241,7 +241,7 @@ const Projects = () => {
           </div>
 
           <h3 className="project-title">
-            <a href={external} target="_blank" rel="noreferrer">
+            <a aria-label="Title" href={external} target="_blank" rel="noreferrer">
               {title}
             </a>
           </h3>

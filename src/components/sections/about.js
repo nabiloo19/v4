@@ -148,8 +148,8 @@ const About = () => {
               Howdy👋 My name is Nabil and I love creating content that correlates with developers.
               With over <b>5</b> years of writing experience, I have a passion for making complex
               topics easier to understand by breaking them down and presenting them in a clear and
-              concise manner, whether in article, tutorial, video and more formats that are friendly
-              for the audience.
+              concise manner, whether in articles, tutorials, videos, or more formats that are
+              friendly for the audience.
             </p>
 
             <p>
@@ -163,7 +163,7 @@ const About = () => {
               </a>
               ,{' '}
               <a aria-label="Personal Projects" href="https://www.kapsarc.org/">
-                a governemtal research body
+                a governmental research body
               </a>
               ,{' '}
               <a aria-label="Personal Projects" href="https://soundcloud.com/yemenisinexile">

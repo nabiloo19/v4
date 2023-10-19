@@ -1,5 +1,5 @@
 ---
-date: '2018-04-01'
+date: '2018-03-29'
 title: 'Project Manager | Content Creator | Dev Rel'
 company: 'GDGAddis'
 location: 'Ethiopia, Addis Ababa'

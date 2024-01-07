@@ -1,6 +1,6 @@
 ---
 date: '2018-03-29'
-title: 'Co-Lead Organizer | PR & Social Media Lead | Dev Rel'
+title: 'Co-Lead Organizer | PR & Social Media Lead | Developer Advocate'
 company: 'GDGAddis'
 location: 'Ethiopia, Addis Ababa'
 range: 'August 2018 - Present'

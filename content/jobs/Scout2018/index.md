@@ -1,6 +1,6 @@
 ---
 date: '2018-03-29'
-title: 'Project Manager | Content Creator | Dev Rel'
+title: 'Co-Lead Organizer | PR & Social Media Lead | Dev Rel'
 company: 'GDGAddis'
 location: 'Ethiopia, Addis Ababa'
 range: 'August 2018 - Present'

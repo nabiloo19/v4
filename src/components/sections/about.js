@@ -127,9 +127,12 @@ const About = () => {
   }, []);
 
   const skills = [
-    'HTML/CSS/JS ES6+',
+    'HTML/CSS/JS',
+    `Twig`,
+    `End to end APIs`,
     'Markdown',
     'VueJS',
+    `API Dog`,
     'Stoplight',
     'Vuetify',
     `JSON`,

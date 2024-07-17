@@ -132,12 +132,15 @@ const About = () => {
     `End to end APIs`,
     'Markdown',
     'VueJS',
-    `API Dog`,
     'Stoplight',
     'Vuetify',
     `JSON`,
     'Gitbook',
     'Git & Github',
+    'APIDog',
+    'Swagger',
+    'Postman',
+    'Hoppscotch',
   ];
 
   return (
@@ -184,7 +187,7 @@ const About = () => {
               <a aria-label="Personal Projects" href="https://salla.dev/">
                 Salla{' '}
               </a>{' '}
-              for over <b>2,000</b> E-commerce developers.
+              for over <b>5,000</b> E-commerce developers.
             </p>
 
             <p>

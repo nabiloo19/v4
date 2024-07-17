@@ -67,7 +67,7 @@ const Hero = () => {
       .
     </h2>
   );
-  const three = <h3 className="big-heading">I write stuff for the public.</h3>;
+  const three = <h3 className="big-heading">Wordsmith for the masses!</h3>;
   const four = (
     <>
       <p>

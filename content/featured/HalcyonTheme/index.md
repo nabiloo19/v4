@@ -8,9 +8,10 @@ tech:
   - JSON
   - Markdown
   - Stoplight
+  - APIDog
 ---
 
-The [official developer documentation](https://docs.salla.dev/) of Salla Developers, where over 45,000 active stores are using its set of 250 various APIs.
+The [official developer documentation](https://docs.salla.dev/) of Salla Developers, where over 60,000 active stores are using its set of 300 various APIs.
 
 Not only that, but also writing [blogs](https://salla.dev/blog) and [tutorials](https://salla.dev/tutorial) that demonstrate the extensibility and of the API that powers the developers to build on top of the e-commerce platform.
 

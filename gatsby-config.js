@@ -6,7 +6,7 @@ module.exports = {
     description: 'Senior Technical Writer / API Docuemntation Specialist / Developer Advocate',
     siteUrl: 'https://nabiloo.tech/', // No trailing slash allowed!
     image: '/og.png', // Path to your image you placed in the 'static' folder
-    twitterUsername: '@alanssinabil19',
+    twitterUsername: '@nabiloo_19',
   },
   plugins: [
     {

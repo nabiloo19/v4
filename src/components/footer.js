@@ -106,7 +106,7 @@ const Footer = () => {
 
       <StyledCredit tabindex="-1">
         <a aria-label="Personal Linktree Account" href="https://linktr.ee/nabiloo">
-          <div>By Nabil Mohammed</div>
+          <div>By Nabil Mohammed | 2025</div>
         </a>
       </StyledCredit>
       <StyledCredit tabindex="-1">

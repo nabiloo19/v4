@@ -179,7 +179,7 @@ const Nav = ({ isHome }) => {
   const ResumeLink = (
     <a
       className="resume-button"
-      href="http://tiny.cc/NabilCV2023"
+      href="http://tiny.cc/NabilCV2025"
       target="_blank"
       rel="noopener noreferrer">
       Resume

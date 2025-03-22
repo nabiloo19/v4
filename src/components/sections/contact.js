@@ -64,8 +64,8 @@ const Contact = () => {
         Developer Advocacy, Community and more.
       </p>
 
-      <a aria-label="Send an Email" className="email-link" href={`mailto:${email}`}>
-        Send an Email ✨
+      <a aria-label="Let’s Simplify Together" className="email-link" href={`mailto:${email}`}>
+        Let’s Simplify Together 📝
       </a>
     </StyledContactSection>
   );

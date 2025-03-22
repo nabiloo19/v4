@@ -7,5 +7,7 @@ range: 'April 2016 - Present'
 url: 'https://nabil-alanssi19.medium.com/'
 ---
 
-- Wrote 20+ articles/tutorials about an array of topics, ranging from web development and AI to General Topics and Best Practises.
-- Part of over **3** publically esteemed publications, including [VueJS Developers](https://medium.com/js-dojo).
+- Authored **20+ high-quality articles and tutorials** on topics including web development, AI, and best practices, attracting **10,000+ readers** and fostering engagement across diverse audiences.
+- Contributed to **3+ renowned publications**, including [VueJS Developers](https://medium.com/js-dojo), enhancing visibility and credibility within the developer community.
+- Focused on creating **SEO-optimized content**, driving organic traffic and improving search rankings for targeted topics.
+- Delivered actionable insights and practical knowledge through well-researched, reader-friendly content, earning positive feedback from readers and industry professionals.

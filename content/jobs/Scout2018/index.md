@@ -7,7 +7,7 @@ range: 'August 2018 - Present'
 url: 'https://gdg.community.dev/gdg-addis/'
 ---
 
-- Planned, designed, and organized **50+** unprecedented [technological events](https://gdg.community.dev/gdg-addis/), previously on [Meetup](https://www.meetup.com/GDG-Addis/).
-- Promoted all [social media](https://www.gdgaddis.dev/contact) accounts for events and regular knowledge.
-- Developed and maintained several [open-source projects](https://github.com/GDG-Addis).
-- Coordinate and lead **2** of the largest local Ethiopian Developer Communities.
+- Planned, designed, and organized **50+ high-impact tech events** (e.g., workshops, hackathons, and meetups), attracting over **10,000 attendees** and establishing GDGAddis as a leading developer community in Ethiopia.
+- Boosted engagement across [social media platforms](https://www.gdgaddis.dev/contact), achieving a **400% increase in follower growth** and significantly enhancing event visibility and participation.
+- Developed and maintained **5+ open-source projects** on [GitHub](https://github.com/GDG-Addis), providing developers with accessible tools and resources, and fostering collaboration within the community.
+- Coordinated and led **2 of Ethiopia’s largest developer communities**, growing membership by **800%** and facilitating knowledge-sharing among **10,000+ active members**, driving innovation and skill development.

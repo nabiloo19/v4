@@ -151,59 +151,70 @@ const About = () => {
         <StyledText>
           <div>
             <p>
-              Howdy👋 My name is Nabil and I love creating content that correlates with developers.
-              With over <b>6</b> years of writing experience, I have a passion for making complex
-              topics easier to understand by breaking them down and presenting them in a clear and
-              concise manner, whether in articles, tutorials, videos, or more formats that are
-              friendly for the audience.
+              I’m Nabil Mohammed, also known as the <b>"Dev Docs Wizard"</b>. With over <b>6</b>{' '}
+              years of experience as a <b>Senior Technical Writer</b>, I specialize in creating
+              developer-focused content and API documentation that bridges the gap between complex
+              technical concepts and clear, actionable insights.
             </p>
 
             <p>
-              Fast-forward to today, I’ve had the privilege of working at{' '}
-              <a aria-label="Personal Projects" href="https://gdg.community.dev/gdg-addis/">
-                Google Community Group
+              I’ve had the privilege of working across diverse industries, including{' '}
+              <a aria-label="Google Community Group" href="https://gdg.community.dev/gdg-addis/">
+                Google Developer Groups
               </a>
               ,{' '}
-              <a aria-label="Personal Projects" href="https://addissoftware.com/">
+              <a aria-label="Addis Software Start-Up" href="https://addissoftware.com/">
                 a start-up
               </a>
               ,{' '}
-              <a aria-label="Personal Projects" href="https://www.kapsarc.org/">
+              <a aria-label="KAPSARC Research Body" href="https://www.kapsarc.org/">
                 a governmental research body
               </a>
               ,{' '}
-              <a aria-label="Personal Projects" href="https://soundcloud.com/yemenisinexile">
+              <a aria-label="Yemenis in Exile Podcast" href="https://soundcloud.com/yemenisinexile">
                 podcaster
               </a>
-              ,
+              ,{' '}
               <a
-                aria-label="Personal Projects"
+                aria-label="Digital Conflict Interventionist"
                 href="https://howtobuildup.org/programs/peace-innovators/meet-the-fellows/yemeni-diaspora-digital-steps-fellows-2020/#:~:text=Yemeni%2DSwedish%20society.-,Yemenis%20in%20Exile,-Yemenis%20In%20Exile">
                 digital conflict interventionist
               </a>
-              , and <a href="https://nabil-alanssi19.medium.com/">a freelance writer</a> for
-              esteemed writing agencies. My main focus these days is building accessible, inclusive
-              products, digital experiences, and developer-focused material at{' '}
-              <a aria-label="Personal Projects" href="https://salla.dev/">
-                Salla{' '}
-              </a>{' '}
-              for over <b>5,000</b> E-commerce developers.
+              , and{' '}
+              <a
+                aria-label="Freelance Writing Portfolio"
+                href="https://nabil-alanssi19.medium.com/">
+                freelance writer
+              </a>
+              . Currently, I create inclusive, developer-centric content at{' '}
+              <a aria-label="Salla Developer Portal" href="https://salla.dev/">
+                Salla
+              </a>
+              , empowering over <b>5,000</b> E-commerce developers with innovative tools and
+              documentation that led to a <b>75%</b> improvement in developer integrations.
             </p>
 
             <p>
-              When I'm not writing technical documents, I'm probably geeking out over my Video Game
-              collection 🎮 or watching reruns of{' '}
-              <a aria-label="Personal Hobbies" href="https://en.wikipedia.org/wiki/Friends">
+              My expertise spans managing documentation for <b>7+ products</b>, producing{' '}
+              <b>300+ API documents</b>, SDK guides, 90+ integration tutorials, and more. I’m
+              proficient with tools like <b>APIDog, GitBook, Swagger, Stoplight</b>, and{' '}
+              <b>Markdown / MDX</b>. My efforts have driven a <b>75%</b> increase in self-service
+              adoption and reduced support inquiries by <b>63%</b> within the developer community.
+            </p>
+
+            <p>
+              When I’m not immersed in technical documentation, you’ll find me geeking out over my{' '}
+              <b>50+</b> video game collection 🎮, re-watching{' '}
+              <a aria-label="Friends TV Show" href="https://en.wikipedia.org/wiki/Friends">
                 Friends
-              </a>{' '}
-              🍿 &{' '}
+              </a>
+              🍿 and{' '}
               <a
-                aria-label="Personal Hobbies"
+                aria-label="The Big Bang Theory TV Show"
                 href="https://en.wikipedia.org/wiki/The_Big_Bang_Theory">
                 The Big Bang Theory
-              </a>{' '}
-              🎥. I love to find the humor and humanity in every project I take on - no matter how
-              complex the technical concept.
+              </a>
+              🎥, or exploring creative ways to simplify complex ideas.
             </p>
             <p>Here are a few technologies/frameworks I’ve been working with recently:</p>
           </div>

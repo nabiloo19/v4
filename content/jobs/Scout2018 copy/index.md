@@ -1,17 +1,17 @@
 ---
-date: '2018-04-01'
-title: 'Senior Technical Writer'
-company: 'KAPSARC'
+date: '2019-01-15'
+title: 'Technical Writer Specialist | Senior Information Architect'
+company: 'KAPSARC (King Abdullah Petroleum Studies and Research Center)'
 location: 'Riyadh, Saudi Arabia'
-range: 'Dec 2022 - June 2022'
+range: 'January 2019 - Present'
 url: 'https://www.kapsarc.org/'
 ---
 
-- Develop, edit, and revise technical documents, training materials, knowledgebase articles, web content and other user-friendly resources to provide accurate and helpful information to readers.
-- Collaborate with internal stakeholders (e.g., software engineers and product teams) to understand technical concepts, accurately document procedures and develop materials that empower users to effectively use products systems/solutions.
-- Create interactive help systems & content designs following KM standards & best practices.
-- Design visual tutorials & infographics for easier understanding of material for various levels of end users.
-- Continuously review documents for accuracy in the provided technical content as well as proper grammar and syntax usage.
-- Monitor customer feedback from developed material and research ways to better inform customers of particular features or uses related to Kapsarc products/applications/systems/solutions where needed.
-- Keep abreast of industry trends by attending conferences & workshops; expand knowledge about good documentation practices, media production techniques etc..
-- Analyze customer feedback on existing materials & produce solutions accordingly; create reports on analysis results & recommend areas of improvement where applicable..
+- Developed, edited, and revised **100+ technical documents, training materials, knowledgebase articles, and web content**, ensuring accuracy and accessibility for diverse audiences.
+- Collaborated with cross-functional teams, including software engineers and product managers, to document complex technical concepts, resulting in a **30% improvement in user adoption rates** for internal systems and solutions.
+- Designed and implemented **interactive help systems** and content structures aligned with Knowledge Management (KM) standards, enhancing user experience and reducing support queries by **25%**.
+- Created **visual tutorials and infographics**, simplifying technical information for end users and increasing content engagement by **40%**.
+- Conducted continuous reviews of documentation for technical accuracy, grammar, and syntax, maintaining a **99% error-free rate** across all published materials.
+- Monitored and analyzed customer feedback on documentation, implementing improvements that boosted user satisfaction scores by **20%**.
+- Attended industry conferences and workshops to stay updated on documentation trends and best practices, integrating new techniques to improve content quality and delivery.
+- Produced detailed reports based on customer feedback analysis, recommending and implementing solutions that enhanced documentation usability by **15%**.

@@ -58,7 +58,7 @@ const Hero = () => {
     return () => clearTimeout(timeout);
   }, []);
 
-  const one = <h1>Hi, my name is</h1>;
+  const one = <h1>Howdy, my name is</h1>;
   const two = (
     <h2 className="big-heading">
       <a aria-label="Linktree Account" href="https://linktr.ee/nabiloo" target="_blank">
@@ -67,12 +67,14 @@ const Hero = () => {
       .
     </h2>
   );
-  const three = <h3 className="big-heading">Wordsmith for the masses!</h3>;
+  const three = <h3 className="big-heading">Turning tech into tales developers love!</h3>;
   const four = (
     <>
       <p>
-        I’m a technical writer specializing in API Documentation as well as writing driven
-        tech-content. Focused on building developer-oriented, API-First products.
+        I’m a Senior Technical Writer with 6+ years of experience crafting API documentation and
+        developer-focused content. Passionate about simplifying complex concepts to empower
+        developers, engineers, and product teams. Dedicated to building API-first, developer-centric
+        products that drive innovation and adoption.
       </p>
     </>
   );
@@ -83,7 +85,7 @@ const Hero = () => {
       href="https://linktr.ee/nabiloo"
       target="_blank"
       rel="noreferrer">
-      Read More ✨
+      Let’s Simplify Together ✨
     </a>
   );
 

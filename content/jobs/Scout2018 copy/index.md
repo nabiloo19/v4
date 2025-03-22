@@ -1,7 +1,7 @@
 ---
 date: '2019-01-15'
 title: 'Technical Writer Specialist | Senior Information Architect'
-company: 'KAPSARC (King Abdullah Petroleum Studies and Research Center)'
+company: 'KAPSARC'
 location: 'Riyadh, Saudi Arabia'
 range: 'January 2019 - Present'
 url: 'https://www.kapsarc.org/'

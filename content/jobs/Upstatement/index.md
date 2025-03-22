@@ -12,4 +12,4 @@ url: 'https://www.salla.dev/'
 - Produced **300+ API endpoints** adhering to RESTful API standards, improving developer integrations by **75%**, and authored over **40 tutorials** to support seamless implementation.
 - Conducted inspections and testing for a **300+ set of APIs**, ensuring accuracy and usability for developers.
 - Collaborated with **12 internal teams** and **6 departments** to gather technical insights and meet documentation requirements, fostering cross-functional alignment.
-- Advocated for the company’s **16 billion USD annual sales**, focusing on the developer community of over **5,000 active users**, and driving a **75% increase in self-service adoption** while reducing support inquiries by **63%**.
+- Advocated for the company’s **16 billion USD annual sales**, focusing on the developer community of over **5,000 active users**, and driving a **58% increase in self-service adoption** while reducing support inquiries by **63%**.

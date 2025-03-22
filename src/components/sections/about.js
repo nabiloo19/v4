@@ -198,7 +198,7 @@ const About = () => {
               My expertise spans managing documentation for <b>7+ products</b>, producing{' '}
               <b>300+ API documents</b>, SDK guides, 90+ integration tutorials, and more. I’m
               proficient with tools like <b>APIDog, GitBook, Swagger, Stoplight</b>, and{' '}
-              <b>Markdown / MDX</b>. My efforts have driven a <b>75%</b> increase in self-service
+              <b>Markdown / MDX</b>. My efforts have driven a <b>58%</b> increase in self-service
               adoption and reduced support inquiries by <b>63%</b> within the developer community.
             </p>
 

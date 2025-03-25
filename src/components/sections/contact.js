@@ -57,7 +57,7 @@ const Contact = () => {
     <StyledContactSection id="contact" ref={revealContainer}>
       <h2 className="numbered-heading overline">What’s Next?</h2>
 
-      <h2 className="title">Let’s Simplify Together 📝</h2>
+      <h2 className="title">Connect Now 🗣️</h2>
 
       <p>
         Always happy to meet, talk and discuss with anyone interested in Technical Writing,
@@ -65,7 +65,7 @@ const Contact = () => {
       </p>
 
       <a aria-label="Connect Now" className="email-link" href={`mailto:${email}`}>
-        Connect Now
+        Let’s Simplify Together 📝
       </a>
     </StyledContactSection>
   );

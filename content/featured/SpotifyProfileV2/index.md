@@ -18,4 +18,4 @@ tech:
 
 When COVID-19 struck, Ethiopia faced not only the global crisis but also internal challenges that compounded the situation.
 
-During this time, I contributed not only to the **content and UX writing** for the [website](https://covidet-app.netlify.app/), [admin dashboard](https://pims-dashboard.netlify.app), and [mobile app](https://covidet64.s3.eu-west-2.amazonaws.com/05-05-2020/Covidet_v1.0.0-arm64-v8a.apk), but also played a role in developing key components of the innovative intervention. This effort ultimately earned us multiple local and international awards.
+During this time, I contributed not only to the content and UX writing for the [website](https://covidet-app.netlify.app/), [admin dashboard](https://pims-dashboard.netlify.app), and [mobile app](https://covidet64.s3.eu-west-2.amazonaws.com/05-05-2020/Covidet_v1.0.0-arm64-v8a.apk), but also played a role in developing key components of the innovative intervention. This effort ultimately earned us multiple local and international awards.

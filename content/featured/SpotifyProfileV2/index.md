@@ -16,6 +16,6 @@ tech:
   - Africa's Talking SMS & USSD APIs
 ---
 
-COVID19 hit the world, and Ethiopia was no exception. On top of that, the country was going through many hurdles internally, and that doubled with the pandemic.
+When COVID-19 struck, Ethiopia faced not only the global crisis but also internal challenges that compounded the situation.
 
-I had the chance not to only write content to both the [website](https://covidet-app.netlify.app/), [admin's dashboard](pims-dashboard.netlify.app), and [mobile app](https://covidet64.s3.eu-west-2.amazonaws.com/05-05-2020/Covidet_v1.0.0-arm64-v8a.apk) (Content & UX Writing), but also had the chance to build and develop some components of the innovative intervention that eventually led to us winning several locally and internationally awards.
+During this time, I contributed not only to the **content and UX writing** for the [website](https://covidet-app.netlify.app/), [admin dashboard](https://pims-dashboard.netlify.app), and [mobile app](https://covidet64.s3.eu-west-2.amazonaws.com/05-05-2020/Covidet_v1.0.0-arm64-v8a.apk), but also played a role in developing key components of the innovative intervention. This effort ultimately earned us multiple local and international awards.

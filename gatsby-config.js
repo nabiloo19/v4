@@ -35,7 +35,7 @@ module.exports = {
       resolve: `gatsby-plugin-manifest`,
       options: {
         name: 'Nabil Mohammed',
-        short_name: 'NabilMohammed',
+        short_name: 'Nabil Mohammed',
         start_url: '/',
         background_color: config.colors.darkNavy,
         theme_color: config.colors.navy,

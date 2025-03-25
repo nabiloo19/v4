@@ -13,10 +13,8 @@ tech:
   - A11Y
 ---
 
-The Google Developers Group in Addis [`(GDGAddis)`](https://www.gdgaddis.dev/) is a community of passionate developers, interested in all tech stack fields. That's what I shared when I wrote the SEO content of their landing page, as I am a tech-driven, open-source advocate of any community-focused projects.
+The Google Developers Group in Addis [`(GDGAddis)`](https://www.gdgaddis.dev/) is a community of passionate developers exploring various tech stacks. I conveyed this vision while crafting the SEO content for their landing page, driven by my passion for open-source advocacy and community-focused projects.
 
-I was lucky enough to lead the project in terms of developing the website as well as writing the content of the landing and routing pages.
+I had the opportunity to **lead the project**, overseeing both the website's development and the content for the landing and routing pages.
 
-My choice of [VueJS](https://vuejs.org/) and [Vuetify](https://vuetifyjs.com/) came from the fact that I am an open-source advocate, and as I am working in a community, that would push them to use such services and contribute back.
-
-The User Experience is what I also focused on and that is demonstrated in the accessbility added such as PWA and the tech-driven content.
+Choosing [VueJS](https://vuejs.org/) and [Vuetify](https://vuetifyjs.com/) aligned with my open-source advocacy, encouraging the community to adopt and contribute to these technologies. Additionally, I prioritized **user experience**, incorporating **accessibility features like PWA** and ensuring tech-driven content that enhances engagement.

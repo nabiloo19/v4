@@ -3,7 +3,7 @@ date: '2019-01-15'
 title: 'Technical Writer Specialist | Senior Information Architect'
 company: 'KAPSARC'
 location: 'Riyadh, Saudi Arabia'
-range: 'January 2019 - Present'
+range: 'January 2019 - June 2019'
 url: 'https://www.kapsarc.org/'
 ---
 

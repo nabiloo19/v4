@@ -71,7 +71,7 @@ const Hero = () => {
   const four = (
     <>
       <p>
-        I’m a Senior Technical Writer with 6+ years of experience crafting API documentation and
+        I’m a Lead Technical Writer with 6+ years of experience crafting API documentation and
         developer-focused content. Passionate about simplifying complex concepts to empower
         developers, engineers, and product teams. Dedicated to building API-first, developer-centric
         products that drive innovation and adoption.

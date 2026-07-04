@@ -148,7 +148,7 @@ const ArchivePage = ({ location, data }) => {
 
   return (
     <Layout location={location}>
-      <Helmet title="Archive" />
+      <Helmet title="Archive | Nabil Mohammed" />
 
       <main>
         <header ref={revealTitle}>

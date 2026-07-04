@@ -104,12 +104,12 @@ const Footer = () => {
         </ul>
       </StyledSocialLinks>
 
-      <StyledCredit tabindex="-1">
+      <StyledCredit tabIndex="-1">
         <a aria-label="Personal Linktree Account" href="https://linktr.ee/nabiloo">
-          <div>By Nabil Mohammed | 2025 𓏉</div>
+          <div>By Nabil Mohammed | {new Date().getFullYear()}</div>
         </a>
       </StyledCredit>
-      <StyledCredit tabindex="-1">
+      <StyledCredit tabIndex="-1">
         <a aria-label="Original Idea" href="https://github.com/bchiang7/v4">
           <div>Original Idea by Brittany Chiang</div>
         </a>

@@ -40,6 +40,34 @@ const Head = ({ title, description, image }) => {
     url: `${siteUrl}${pathname}`,
   };
 
+  const personSchema = {
+    '@context': 'https://schema.org',
+    '@type': 'Person',
+    name: 'Nabil Mohammed',
+    url: siteUrl,
+    image: `${siteUrl}/newog.png`,
+    jobTitle: 'Lead Technical Writer',
+    description: seo.description,
+    sameAs: [
+      'https://github.com/nabiloo19',
+      'https://www.linkedin.com/in/nabiloo19',
+      'https://x.com/nabiloo_19',
+      'https://nabil-alanssi19.medium.com/',
+      'https://linktr.ee/nabiloo',
+    ],
+    knowsAbout: [
+      'API Documentation',
+      'Technical Writing',
+      'Developer Relations',
+      'Developer Experience',
+      'Markdown',
+      'OpenAPI',
+      'Swagger',
+      'Stoplight',
+      'GitBook',
+    ],
+  };
+
   return (
     <Helmet title={title} defaultTitle={seo.title} titleTemplate={`%s | ${defaultTitle}`}>
       <html lang="en" />
@@ -60,6 +88,10 @@ const Head = ({ title, description, image }) => {
       <meta name="twitter:image" content={seo.image} />
 
       <meta name="google-site-verification" content="DCl7VAf9tcz6eD9gb67NfkNnJ1PKRNcg8qQiwpbx9Lk" />
+
+      <link rel="canonical" href={seo.url} />
+
+      <script type="application/ld+json">{JSON.stringify(personSchema)}</script>
     </Helmet>
   );
 };

@@ -1,7 +1,7 @@
 ---
 date: '2'
 title: 'GDGAddis'
-cover: './CleanShot 2022-06-02 at 16.09.44@2x.png'
+cover: './gdgaddis-cover.png'
 github: 'https://github.com/GDG-Addis/GDGAddisPlatform'
 external: 'https://www.gdgaddis.dev/'
 tech:

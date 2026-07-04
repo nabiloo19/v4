@@ -3,8 +3,9 @@ const config = require('./src/config');
 module.exports = {
   siteMetadata: {
     title: 'Nabil Mohammed',
-    description: 'Senior Technical Writer / API Docuemntation Specialist / Developer Advocate',
-    siteUrl: 'https://nabiloo.tech/', // No trailing slash allowed!
+    description:
+      'Nabil Mohammed helps developers ship faster by writing clear API docs, SDK guides, and developer content. 6+ years of experience, 300+ API docs, and a track record of cutting support load by 63%.',
+    siteUrl: 'https://nabiloo.tech',
     image: '/newog.png', // Path to your image you placed in the 'static' folder
     twitterUsername: '@nabiloo_19',
   },
@@ -29,7 +30,12 @@ module.exports = {
     `gatsby-plugin-image`,
     `gatsby-plugin-sharp`,
     `gatsby-transformer-sharp`,
-    `gatsby-plugin-sitemap`,
+    {
+      resolve: `gatsby-plugin-sitemap`,
+      options: {
+        output: '/sitemap.xml',
+      },
+    },
     `gatsby-plugin-robots-txt`,
     {
       resolve: `gatsby-plugin-manifest`,
@@ -161,12 +167,6 @@ module.exports = {
             },
           },
         ],
-      },
-    },
-    {
-      resolve: `gatsby-plugin-google-analytics`,
-      options: {
-        trackingId: 'G-CQ3PJSJPCS',
       },
     },
   ],

@@ -160,10 +160,6 @@ const Nav = ({ isHome }) => {
 
   const Logo = (
     <div className="logo" tabIndex="-1">
-      <a href="/" aria-label="home">
-        Home
-      </a>
-
       {isHome ? (
         <a href="/" aria-label="home">
           <IconLogo />
@@ -179,7 +175,7 @@ const Nav = ({ isHome }) => {
   const ResumeLink = (
     <a
       className="resume-button"
-      href="http://tiny.cc/NabilCV2025"
+      href="https://drive.google.com/file/d/1iqtQtiA9DqG-uofqNPMekf8qzdcn1LfC/view?usp=drive_link"
       target="_blank"
       rel="noopener noreferrer">
       Resume

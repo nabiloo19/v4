@@ -404,7 +404,9 @@ const Featured = () => {
                 </div>
 
                 <div className="project-image">
-                  <a aria-label="GitHub" href={external ? external : github ? github : '#'}>
+                  <a
+                    aria-label={`View ${title}`}
+                    href={external ? external : github ? github : '#'}>
                     <GatsbyImage image={image} alt={title} className="img" />
                   </a>
                 </div>

@@ -1,7 +1,7 @@
 ---
 date: '3'
 title: 'CovidET Mitigation Software'
-cover: './CleanShot 2022-06-02 at 16.14.05@2x.png'
+cover: './covidet-cover.png'
 external: 'https://covidet-app.netlify.app/'
 cta: 'https://www.youtube.com/watch?v=ch8Lx-b0-8E'
 tech:

@@ -1,6 +1,6 @@
 ---
 date: '2021-02-17'
-title: 'Documentation Specialist | Senior Technical Writer'
+title: 'Documentation Specialist | Lead Technical Writer'
 company: 'Salla'
 location: 'Saudi Arabia, Remote'
 range: 'February 2021 - Present'

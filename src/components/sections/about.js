@@ -152,7 +152,7 @@ const About = () => {
           <div>
             <p>
               I’m Nabil Mohammed, also known as the <b>"Dev Docs Wizard"</b>. With over <b>6</b>{' '}
-              years of experience as a <b>Senior Technical Writer</b>, I specialize in creating
+              years of experience as a <b>Lead Technical Writer</b>, I specialize in creating
               developer-focused content and API documentation that bridges the gap between complex
               technical concepts and clear, actionable insights.
             </p>
@@ -232,7 +232,7 @@ const About = () => {
               width={500}
               quality={95}
               formats={['AUTO', 'WEBP', 'AVIF']}
-              alt="Headshot"
+              alt="Nabil Mohammed"
             />
           </div>
         </StyledPic>

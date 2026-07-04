@@ -38,6 +38,7 @@ export const metadata: Metadata = {
     siteName: 'Nabil Mohammed',
     type: 'website',
     locale: 'en_US',
+    images: [{ url: '/og.png', width: 1200, height: 630, alt: 'Nabil Mohammed — Lead Technical Writer' }],
   },
   twitter: {
     card: 'summary_large_image',
@@ -45,6 +46,7 @@ export const metadata: Metadata = {
     description:
       'API docs, OpenAPI specs, and SDK guides built for humans and ready for agents.',
     creator: '@nabiloo_19',
+    images: ['/og.png'],
   },
   alternates: {
     canonical: 'https://nabiloo.tech',

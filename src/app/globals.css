@@ -3,18 +3,9 @@
 @tailwind utilities;
 
 @layer base {
-  /* Dark theme (default) */
-  :root,
-  .dark {
-    --color-bg: 8 11 20;
-    --color-bg-soft: 13 17 32;
-    --color-card: 17 24 39;
-    --color-text-dim: 136 146 176;
-    --color-text-light: 168 178 216;
-    --color-text-lightest: 204 214 246;
-    color-scheme: dark;
+  :root {
+    color-scheme: light;
   }
-
 
   * {
     box-sizing: border-box;
@@ -27,8 +18,8 @@
   }
 
   body {
-    background-color: rgb(var(--color-bg));
-    color: rgb(var(--color-text-light));
+    background-color: #fafaf9;
+    color: #52525f;
     font-family: var(--font-sans), system-ui, sans-serif;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
@@ -37,17 +28,17 @@
 
   ::selection {
     background-color: rgba(0, 255, 209, 0.2);
-    color: rgb(var(--color-text-lightest));
+    color: #0a0a10;
   }
 
   ::-webkit-scrollbar {
-    width: 6px;
+    width: 5px;
   }
   ::-webkit-scrollbar-track {
-    background: rgb(var(--color-bg));
+    background: #f2f1ee;
   }
   ::-webkit-scrollbar-thumb {
-    background: rgb(var(--color-bg-soft));
+    background: #d4d4da;
     border-radius: 3px;
   }
   ::-webkit-scrollbar-thumb:hover {
@@ -55,26 +46,16 @@
   }
 }
 
-@keyframes fadeSlideIn {
-  from { opacity: 0; transform: translateX(-6px); }
-  to   { opacity: 1; transform: translateX(0); }
-}
-
 @layer utilities {
   .text-gradient {
-    background: linear-gradient(135deg, #00ffd1 0%, rgb(var(--color-text-light)) 100%);
+    background: linear-gradient(135deg, #007a65 0%, #00c4a3 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
   }
 
-  .glow-teal {
-    box-shadow: 0 0 30px rgba(0, 255, 209, 0.15);
-  }
-
-  .bg-card {
-    background: rgb(var(--color-bg-soft) / 0.8);
-    backdrop-filter: blur(12px);
-    -webkit-backdrop-filter: blur(12px);
+  .rule {
+    border: none;
+    border-top: 1px solid rgba(0, 0, 0, 0.08);
   }
 }

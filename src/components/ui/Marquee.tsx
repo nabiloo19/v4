@@ -12,12 +12,12 @@ export default function Marquee({ items, speed = 30, reverse = false }: Props) {
   return (
     <div className="overflow-hidden whitespace-nowrap">
       <div
-        className={`inline-flex gap-8 ${reverse ? 'animate-marquee-reverse' : 'animate-marquee'}`}
+        className={`inline-flex gap-10 ${reverse ? 'animate-marquee-reverse' : 'animate-marquee'}`}
         style={{ animationDuration: `${speed}s` }}
       >
         {doubled.map((item, i) => (
-          <span key={i} className="inline-flex items-center gap-3 font-mono text-sm text-slate-dim">
-            <span className="w-1 h-1 rounded-full bg-teal/50" />
+          <span key={i} className="inline-flex items-center gap-3 font-mono text-sm text-text-muted">
+            <span className="w-1 h-1 rounded-full bg-teal/60" />
             {item}
           </span>
         ))}

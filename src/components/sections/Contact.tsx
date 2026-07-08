@@ -31,41 +31,31 @@ const iconMap: Record<string, React.ReactNode> = {
   ),
 }
 
-/* small decorative orbs that drift inside the card */
-const orbs = [
-  { size: 4, x: '12%',  y: '18%',  dur: 6,   del: 0   },
-  { size: 3, x: '80%',  y: '14%',  dur: 7.5, del: 1.2 },
-  { size: 5, x: '88%',  y: '72%',  dur: 5.5, del: 0.6 },
-  { size: 3, x: '8%',   y: '80%',  dur: 8,   del: 2   },
-  { size: 4, x: '50%',  y: '6%',   dur: 6.5, del: 1.8 },
-  { size: 2, x: '66%',  y: '90%',  dur: 7,   del: 0.4 },
-]
-
 export default function Contact() {
   return (
-    <section id="contact" className="pt-16 pb-32 relative overflow-hidden">
-      <div className="absolute inset-0 bg-[radial-gradient(ellipse_60%_80%_at_50%_100%,rgba(0,255,209,0.07),transparent)] pointer-events-none" />
-
-      <div className="relative max-w-4xl mx-auto px-6 text-center">
+    <section id="contact" className="py-36 bg-[#fafaf9]">
+      <div className="max-w-4xl mx-auto px-6 text-center">
         <motion.div
-          initial={{ opacity: 0, y: 30 }}
+          initial={{ opacity: 0, y: 24 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
-          transition={{ duration: 0.7 }}
+          transition={{ duration: 0.6 }}
         >
-          <h2 className="text-3xl md:text-5xl font-bold text-slate-lightest mb-5 leading-tight">
+          <p className="font-mono text-[11px] tracking-[0.32em] uppercase text-teal-dark mb-8">Get in touch</p>
+
+          <h2 className="text-4xl md:text-6xl font-bold text-[#0a0a10] mb-6 leading-[1.06] tracking-tight">
             Let&apos;s build something<br />
             <span className="text-gradient">worth documenting.</span>
           </h2>
 
-          <p className="text-slate-dim text-base leading-relaxed mb-10 max-w-md mx-auto">
+          <p className="text-text-body text-lg leading-relaxed mb-12 max-w-md mx-auto">
             API docs, developer portals, AI-ready specs, or something that doesn&apos;t exist yet.
             If it involves making complex systems legible, I&apos;m interested.
           </p>
 
           <a
             href="mailto:nabil.alanssi19@gmail.com"
-            className="group inline-flex items-center gap-3 bg-teal text-navy font-mono font-bold text-sm px-8 py-4 rounded-full hover:scale-105 transition-transform duration-200 mb-12"
+            className="group inline-flex items-center gap-3 bg-[#0a0a10] text-[#fafaf9] font-mono font-bold text-sm px-10 py-4 rounded-full hover:bg-[#1a1a24] transition-colors mb-14"
           >
             Say Hello
             <motion.span
@@ -86,10 +76,10 @@ export default function Contact() {
                 aria-label={link.name}
                 whileHover={{ y: -3 }}
                 transition={{ duration: 0.2 }}
-                className="text-slate-dim/50 hover:text-teal transition-colors"
+                className="text-text-muted hover:text-teal-dark transition-colors"
               >
                 {iconMap[link.name] ?? (
-                  <svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor">
+                  <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" strokeWidth="2">
                     <path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71" />
                     <path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71" />
                   </svg>

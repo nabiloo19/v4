@@ -1,7 +1,6 @@
 export const navLinks = [
   { name: 'About', href: '#about' },
-  { name: 'Process', href: '#process' },
-  { name: 'AI Writing', href: '#ai' },
+  { name: 'Services', href: '#services' },
   { name: 'Work', href: '#work' },
   { name: 'Experience', href: '#experience' },
   { name: 'Contact', href: '#contact' },

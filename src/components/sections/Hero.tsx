@@ -1,6 +1,10 @@
 'use client'
 
+import { Fragment } from 'react'
 import { motion } from 'framer-motion'
+import { content } from '@/lib/content'
+
+const { hero, profile } = content
 
 export default function Hero() {
   return (
@@ -16,18 +20,16 @@ export default function Hero() {
             transition={{ duration: 0.7, ease: [0.22, 1, 0.36, 1] }}
           >
             <p className="font-mono text-[11px] tracking-[0.32em] uppercase text-teal-dark mb-8">
-              Lead Technical Writer · Salla
+              {hero.eyebrow}
             </p>
 
             <h1 className="text-[clamp(2.6rem,6.5vw,6.5rem)] font-bold text-[#0a0a10] leading-[1.04] tracking-tight mb-8">
-              The writer<br />
-              developers<br />
-              <span className="text-gradient">actually thank.</span>
+              {hero.headline.map((line, i) => <Fragment key={i}>{line}<br /></Fragment>)}
+              <span className="text-gradient">{hero.headlineAccent}</span>
             </h1>
 
             <p className="max-w-sm text-text-body text-lg leading-relaxed mb-10">
-              Seven years turning APIs, SDKs, and developer platforms into documentation
-              that ships adoption — and that AI agents now read to build on top.
+              {hero.subtitle}
             </p>
 
             <div className="flex flex-wrap gap-3 mb-14">
@@ -38,7 +40,7 @@ export default function Hero() {
                 See my work →
               </a>
               <a
-                href="mailto:nabil.alanssi19@gmail.com"
+                href={`mailto:${profile.email}`}
                 className="inline-flex items-center gap-2 text-[#0a0a10] font-mono text-sm px-7 py-3.5 rounded-full border border-black/[0.12] hover:border-black/25 transition-colors"
               >
                 Get in touch
@@ -47,12 +49,7 @@ export default function Hero() {
 
             <hr className="rule mb-8" />
             <div className="grid grid-cols-4 gap-4">
-              {[
-                { value: '7+', label: 'Years' },
-                { value: '300+', label: 'API docs' },
-                { value: '10k+', label: 'Developers' },
-                { value: '100%', label: 'OpenAPI' },
-              ].map(stat => (
+              {hero.stats.map(stat => (
                 <div key={stat.label}>
                   <p className="text-2xl font-bold text-[#0a0a10]">{stat.value}</p>
                   <p className="font-mono text-[10px] text-text-muted tracking-wide mt-0.5">{stat.label}</p>
@@ -71,7 +68,7 @@ export default function Hero() {
             <div className="relative">
               <img
                 src="/me.jpeg"
-                alt="Nabil Mohammed"
+                alt={profile.name}
                 className="w-full aspect-[3/4] object-cover object-top rounded-2xl"
               />
               {/* Teal accent strip */}

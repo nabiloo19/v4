@@ -3,21 +3,9 @@
 import { useEffect, useState } from 'react'
 import { motion } from 'framer-motion'
 import SectionHeading from '@/components/ui/SectionHeading'
+import { content } from '@/lib/content'
 
-const pillars = [
-  {
-    tag: 'OpenAPI',
-    title: '100% OpenAPI Compliant',
-    body: 'Every Salla API endpoint I document is fully OpenAPI-compliant. Any LLM can import the spec and instantly understand auth, request shapes, response structures, and error codes. No human in the loop required. Structured docs are the interface.',
-    detail: '300+ endpoints · Machine-readable by design',
-  },
-  {
-    tag: 'MCP',
-    title: 'Powering a Public MCP Server',
-    body: 'I helped create the public Model Context Protocol (MCP) server for the Salla Partners Portal. When a developer asks Claude, Cursor, or any MCP-enabled agent to build on Salla, the agent reaches for this server. Around 95% of what it reads and acts on is content I wrote.',
-    detail: '~95% content coverage · Claude · Cursor · VS Code',
-  },
-]
+const pillars = content.aiWriting.pillars
 
 const terminalLines = [
   { prefix: '→', text: 'Fetching tool: salla_create_app', dim: false },
@@ -51,8 +39,7 @@ export default function AIWriting() {
 
         <div className="max-w-2xl mb-16">
           <p className="text-text-body text-xl leading-relaxed">
-            Documentation used to have one audience: developers. Not anymore. Today, AI agents, LLMs,
-            and automated tools read docs to reason, generate code, and take action. I write for both.
+            {content.aiWriting.intro}
           </p>
         </div>
 
@@ -126,8 +113,7 @@ export default function AIWriting() {
         </motion.div>
 
         <p className="mt-10 text-center font-mono text-xs text-text-muted max-w-lg mx-auto leading-relaxed">
-          The future of developer docs is not just human-readable.
-          It is agent-ready, spec-compliant, and built to be consumed by whatever reads it.
+          {content.aiWriting.closing}
         </p>
       </div>
     </section>

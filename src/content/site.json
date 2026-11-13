@@ -1,0 +1,475 @@
+{
+  "profile": {
+    "name": "Nabil Mohammed",
+    "jobTitle": "Lead Technical Writer",
+    "email": "nabil.alanssi19@gmail.com",
+    "resumeUrl": "https://drive.google.com/file/d/1iqtQtiA9DqG-uofqNPMekf8qzdcn1LfC/view?usp=drive_link"
+  },
+  "seo": {
+    "title": "Nabil Mohammed | Lead Technical Writer",
+    "description": "Nabil Mohammed — Lead Technical Writer at Salla. 7+ years writing API docs, OpenAPI specs, and SDK guides for 10,000+ developers. Built for humans, ready for agents.",
+    "ogDescription": "API docs, OpenAPI specs, and SDK guides built for humans and ready for agents. 7+ years, 440+ API endpoints, 96 tutorials, 10,000+ developers served.",
+    "twitterDescription": "API docs, OpenAPI specs, and SDK guides built for humans and ready for agents.",
+    "personDescription": "Lead Technical Writer specialising in API documentation, OpenAPI specs, SDK guides, and developer content built for humans and AI agents."
+  },
+  "hero": {
+    "eyebrow": "Lead Technical Writer · Salla",
+    "headline": [
+      "The writer",
+      "developers"
+    ],
+    "headlineAccent": "actually thank.",
+    "subtitle": "Seven years turning APIs, SDKs, and developer platforms into documentation that ships adoption — and that AI agents now read to build on top.",
+    "stats": [
+      {
+        "value": "7+",
+        "label": "Years"
+      },
+      {
+        "value": "440+",
+        "label": "API endpoints"
+      },
+      {
+        "value": "10k+",
+        "label": "Developers"
+      },
+      {
+        "value": "100%",
+        "label": "OpenAPI"
+      }
+    ]
+  },
+  "about": {
+    "quote": "The gap between a good product and a successful product is often just documentation.",
+    "paragraphs": [
+      "I'm Nabil Mohammed, Lead Technical Writer and the person developers thank when the docs actually made sense. I go by ==“Dev Docs Wizard”== because I believe that writing clear documentation is less about English and more about empathy for the developer experience.",
+      "Over 7+ years I've worked across Google Developer Groups, governmental research bodies, fintech startups, and one of the Middle East's largest e-commerce platforms. At Salla I manage documentation for 11 developer products, 440+ OpenAPI-compliant API endpoints and 96 tutorials, for a developer community of 10,000+ builders. My docs have driven a **75% improvement** in developer integrations.",
+      "When I'm not in the docs, I'm probably playing video games, rewatching Friends for the 12th time, or finding more elegant ways to explain complex things."
+    ],
+    "highlights": [
+      {
+        "label": "Based in",
+        "value": "Addis Ababa"
+      },
+      {
+        "label": "Currently at",
+        "value": "Salla"
+      },
+      {
+        "label": "Specialising in",
+        "value": "API Documentation"
+      },
+      {
+        "label": "Open to",
+        "value": "Freelance & Full-time"
+      }
+    ]
+  },
+  "services": {
+    "items": [
+      {
+        "title": "API Documentation",
+        "description": "End-to-end API reference documentation: endpoints, parameters, auth flows, error codes, and code samples across multiple languages."
+      },
+      {
+        "title": "OpenAPI Specs",
+        "description": "Fully-compliant OpenAPI / Swagger specifications that work as the single source of truth for both your team and any tool that reads them."
+      },
+      {
+        "title": "SDK Guides",
+        "description": "Getting started guides, integration tutorials, and SDK documentation that take a developer from zero to working in under an hour."
+      },
+      {
+        "title": "Developer Portals",
+        "description": "Full documentation systems: information architecture, content strategy, tooling selection, style guides, and ongoing maintenance."
+      },
+      {
+        "title": "Documentation Audits",
+        "description": "A structured review of your existing docs — identifying gaps, inconsistencies, and friction points, with a clear plan to fix them."
+      },
+      {
+        "title": "Content Strategy",
+        "description": "Long-term documentation strategy for growing developer platforms: what to write, how to structure it, and how to measure success."
+      }
+    ],
+    "availability": "Available for contract and freelance engagements. Specialising in developer-facing products with complex APIs."
+  },
+  "process": {
+    "intro": "Documentation treated as a core product, not an afterthought.",
+    "steps": [
+      {
+        "title": "Discover",
+        "description": "Embed with engineering and product. Read the code, attend standups, interview developers. Docs written from a distance show it."
+      },
+      {
+        "title": "Architect",
+        "description": "Map the information architecture before writing a word. What does the developer need first? What will they search for at 2am?"
+      },
+      {
+        "title": "Write",
+        "description": "Precise, scannable, human. Every sentence earns its place. Written for the developer who is frustrated and needs to ship."
+      },
+      {
+        "title": "Validate",
+        "description": "Real developers test the docs. If they get stuck, that is a documentation bug. Iterate until zero-to-working is frictionless."
+      },
+      {
+        "title": "Measure",
+        "description": "Track support deflection, time-to-first-call, integration rates. Docs are a product and should have metrics."
+      }
+    ]
+  },
+  "aiWriting": {
+    "intro": "Documentation used to have one audience: developers. Not anymore. Today, AI agents, LLMs, and automated tools read docs to reason, generate code, and take action. I write for both.",
+    "pillars": [
+      {
+        "tag": "OpenAPI",
+        "title": "100% OpenAPI Compliant",
+        "body": "Every Salla API endpoint I document is fully OpenAPI-compliant. Any LLM can import the spec and instantly understand auth, request shapes, response structures, and error codes. No human in the loop required. Structured docs are the interface.",
+        "detail": "440+ endpoints · Machine-readable by design"
+      },
+      {
+        "tag": "MCP",
+        "title": "Powering a Public MCP Server",
+        "body": "I helped create the public Model Context Protocol (MCP) server for the Salla Partners Portal. When a developer asks Claude, Cursor, or any MCP-enabled agent to build on Salla, the agent reaches for this server. Around 95% of what it reads and acts on is content I wrote.",
+        "detail": "~95% content coverage · Claude · Cursor · VS Code"
+      }
+    ],
+    "closing": "The future of developer docs is not just human-readable. It is agent-ready, spec-compliant, and built to be consumed by whatever reads it."
+  },
+  "skills": {
+    "categories": [
+      {
+        "label": "Writing",
+        "items": [
+          "API Documentation",
+          "SDK Guides",
+          "OpenAPI Specs",
+          "Release Notes",
+          "Integration Tutorials",
+          "UX Writing"
+        ]
+      },
+      {
+        "label": "Tools",
+        "items": [
+          "Stoplight",
+          "APIDog",
+          "GitBook",
+          "Postman",
+          "Swagger",
+          "Hoppscotch"
+        ]
+      },
+      {
+        "label": "Tech",
+        "items": [
+          "Markdown / MDX",
+          "JSON",
+          "HTML / CSS",
+          "Git & GitHub",
+          "VueJS",
+          "Twig"
+        ]
+      },
+      {
+        "label": "Strategy",
+        "items": [
+          "Information Architecture",
+          "Developer Relations",
+          "Content Strategy",
+          "Developer Portals",
+          "Style Guides"
+        ]
+      }
+    ],
+    "marquee": [
+      [
+        "API Documentation",
+        "OpenAPI / Swagger",
+        "Stoplight",
+        "APIDog",
+        "GitBook",
+        "Postman",
+        "Hoppscotch",
+        "Markdown / MDX",
+        "SDK Guides",
+        "Developer Portals"
+      ],
+      [
+        "Information Architecture",
+        "Developer Relations",
+        "UX Writing",
+        "Content Strategy",
+        "VueJS",
+        "Twig",
+        "JSON",
+        "Git & GitHub",
+        "Release Notes",
+        "Integration Tutorials"
+      ]
+    ]
+  },
+  "featuredProjects": [
+    {
+      "title": "Salla Developer Documentation System",
+      "description": "Built the entire documentation system for Salla's developer ecosystem from scratch: 440+ API endpoints across 11 developer products, 96 tutorials, 43 guides, SDK guides, and a developer knowledgebase serving 5,000+ active developers across 65,000+ merchants. I designed the information architecture, chose the toolchain, and established the style guide still used today.",
+      "tech": [
+        "API Documentation",
+        "Information Architecture",
+        "Stoplight",
+        "APIDog",
+        "Style Guide"
+      ],
+      "external": "https://docs.salla.dev/",
+      "metric": "75% improvement in developer integrations"
+    },
+    {
+      "title": "KAPSARC Technical Documentation Suite",
+      "description": "Produced and maintained 100+ technical documents, knowledge base articles, training materials, and web content for one of the world's leading energy research institutions. Designed interactive help systems aligned with Knowledge Management standards, reducing support queries by 25% and improving internal system adoption by 30%.",
+      "tech": [
+        "Technical Writing",
+        "Knowledge Management",
+        "Training Materials",
+        "UX Writing"
+      ],
+      "external": "https://www.kapsarc.org/",
+      "metric": "30% improvement in user adoption"
+    },
+    {
+      "title": "CovidET: Writing for Crisis Tech",
+      "description": "Led all content and UX writing for CovidET, a multi-platform COVID-19 mitigation product built for Ethiopia. This covered a public website, admin dashboard, and mobile app. The challenge was explaining life-critical health information clearly to users with varying digital literacy, under a real crisis. The project earned multiple international awards.",
+      "tech": [
+        "UX Writing",
+        "Content Strategy",
+        "Microcopy",
+        "Multi-platform",
+        "Health Tech"
+      ],
+      "external": "https://covidet-app.netlify.app/",
+      "cta": "https://www.youtube.com/watch?v=ch8Lx-b0-8E",
+      "metric": "Multiple international awards"
+    }
+  ],
+  "otherProjects": [
+    {
+      "title": "Qena Digital Lending",
+      "company": "Qena",
+      "description": "Technical documentation, process documents, and API guides for a digital lending platform targeting underbanked communities.",
+      "tech": [
+        "Technical Docs",
+        "APIs",
+        "Process Docs"
+      ],
+      "external": "https://qena.ai/"
+    },
+    {
+      "title": "Salla Developer Portal",
+      "company": "Salla",
+      "description": "UX writing, SEO content, and site management for the Salla developer-facing portal used by thousands of partners.",
+      "tech": [
+        "UX Writing",
+        "SEO",
+        "Site Management"
+      ],
+      "external": "http://salla.dev/"
+    },
+    {
+      "title": "Salla Developer Portal Sample Work",
+      "company": "Salla",
+      "description": "A curated collection of articles and tutorials written for the Salla Developer Portal, showcasing API extensibility.",
+      "tech": [
+        "Content Writing",
+        "Tutorials",
+        "API"
+      ],
+      "external": "https://bitsy-cc3f6.web.app/l/0vzfkf"
+    },
+    {
+      "title": "GDGAddis Platform",
+      "company": "GDGAddis",
+      "description": "Led development and wrote all SEO and developer-facing content for the Google Developer Group Addis Ababa platform.",
+      "tech": [
+        "VueJS",
+        "PWA",
+        "Content Writing",
+        "UX Writing"
+      ],
+      "external": "https://www.gdgaddis.dev/",
+      "github": "https://github.com/GDG-Addis/GDGAddisPlatform"
+    },
+    {
+      "title": "Developer Festival Web App",
+      "company": "GDGAddis",
+      "description": "Built and wrote all content for the GDG DevFest Addis web app, including event pages, UX copy, and community content.",
+      "tech": [
+        "VueJS",
+        "Content Writing",
+        "UX Writing"
+      ],
+      "external": "https://devfest.gdgaddis.dev/",
+      "github": "https://github.com/GDG-Addis/DevFest"
+    },
+    {
+      "title": "Sabaain Platform",
+      "company": "Sabaain ORG",
+      "description": "Content writing and UX copy for a women empowerment platform based in Sweden, covering mission, programmes, and impact.",
+      "tech": [
+        "WordPress",
+        "Content Writing",
+        "UX Writing"
+      ],
+      "external": "http://sabaain.org/"
+    },
+    {
+      "title": "Banks in Ethiopia",
+      "company": "Addis Software",
+      "description": "Produced comprehensive web content covering Ethiopian banking institutions, services, and financial literacy information.",
+      "tech": [
+        "Content Writing",
+        "UX Writing",
+        "Research"
+      ],
+      "external": "https://banksethiopia.com/"
+    },
+    {
+      "title": "AI Event at AAU",
+      "company": "Addis Ababa University",
+      "description": "Website copy and UX writing for an AI-focused event hosted by Addis Ababa University, covering agenda, speakers, and registration.",
+      "tech": [
+        "WordPress",
+        "Content Writing",
+        "UX Writing"
+      ],
+      "external": "https://iltt.aau.edu.et/"
+    },
+    {
+      "title": "Tech Camp Ethiopia",
+      "company": "GDGAddis",
+      "description": "Website content and UX writing for Tech Camp Ethiopia, a community event connecting developers across the country.",
+      "tech": [
+        "HTML/CSS",
+        "Content Writing",
+        "UX Writing"
+      ],
+      "external": "https://techcamp.gdgaddis.dev/",
+      "github": "https://github.com/GDG-Addis/TechCampEthiopia"
+    },
+    {
+      "title": "Medium Blog",
+      "company": "Personal",
+      "description": "Personal writing space covering technical topics, developer experience, documentation philosophy, and tech in Africa.",
+      "tech": [
+        "Content Writing",
+        "Technical Writing"
+      ],
+      "external": "https://nabil-alanssi19.medium.com/"
+    }
+  ],
+  "jobs": [
+    {
+      "company": "Salla",
+      "title": "Lead Technical Writer",
+      "range": "Feb 2021 - Present",
+      "url": "https://salla.dev/",
+      "bullets": [
+        "Lead the documentation for 11 developer products and 440+ OpenAPI endpoints, improving developer integrations by 75%.",
+        "Designed the information architecture of Salla's developer docs and wrote 96 tutorials and 43 guides across apps, themes, APIs and AI tooling.",
+        "Wrote most of the content behind Salla's public MCP server, which AI agents use to build apps and themes on Salla.",
+        "Grew self-service adoption by 58% across 10,000+ developers; led 3 writers in English and Arabic."
+      ]
+    },
+    {
+      "company": "Infratech Software Services",
+      "title": "Technical Writer",
+      "range": "Aug 2024 - Jan 2025 · Contract",
+      "url": "",
+      "bullets": [
+        "Wrote the product UX copy and user tutorials for AEMS, the digital traffic and parking platform built for the Addis Ababa Traffic Management Authority.",
+        "The platform replaced paper tickets and cash across the capital with 1,500 officer tablets, a drivers app and cashless payments, launched in December 2024."
+      ]
+    },
+    {
+      "company": "Qena",
+      "title": "Lead Technical Writer | Information Architect",
+      "range": "Dec 2023 - Jul 2024 · Contract",
+      "url": "https://qena.ai/",
+      "bullets": [
+        "Led documentation strategy for a digital lending platform targeting underbanked communities.",
+        "Produced end-to-end API documentation and integration guides for fintech partners.",
+        "Established information architecture standards across the product suite."
+      ]
+    },
+    {
+      "company": "KAPSARC",
+      "title": "Technical Writer | Information Architect",
+      "range": "Jul 2020 - Dec 2020",
+      "url": "https://www.kapsarc.org/",
+      "bullets": [
+        "Developed, edited, and revised 100+ technical documents, training materials, knowledgebase articles, and web content.",
+        "Collaborated with cross-functional teams to document complex technical concepts, resulting in a 30% improvement in user adoption rates.",
+        "Designed interactive help systems aligned with Knowledge Management (KM) standards, reducing support queries by 25%.",
+        "Created visual tutorials and infographics, increasing content engagement by 40%."
+      ]
+    },
+    {
+      "company": "RAKT Ecommerce Solutions",
+      "title": "Technical Writer",
+      "range": "Jan 2020 - Jun 2020",
+      "url": "",
+      "bullets": [
+        "Produced technical documentation and developer-facing content for ecommerce solutions.",
+        "Created integration tutorials and API reference guides for merchant and developer audiences."
+      ]
+    },
+    {
+      "company": "Addis Software",
+      "title": "UX Writer",
+      "range": "2018 - 2019",
+      "url": "https://addissoftware.com/",
+      "bullets": [
+        "Crafted UX copy across web and mobile products: microcopy, onboarding flows, error messages, and tooltips for developer-facing and consumer interfaces.",
+        "Produced web content and technical writing for fintech and software products including Banks in Ethiopia, maintaining a consistent editorial voice."
+      ]
+    },
+    {
+      "company": "GDGAddis",
+      "title": "Technical Content Lead | Dev Rel",
+      "range": "Aug 2018 - Present",
+      "url": "https://gdg.community.dev/gdg-addis/",
+      "bullets": [
+        "Produced technical content, developer guides, and event materials for the Google Developer Group Addis Ababa, reaching 5,000+ developers.",
+        "Wrote and published all content for the GDGAddis website and DevFest web app, covering engineering talks, workshops, and community initiatives."
+      ]
+    }
+  ],
+  "contact": {
+    "headline": [
+      "Let's build something"
+    ],
+    "headlineAccent": "worth documenting.",
+    "text": "API docs, developer portals, AI-ready specs, or something that doesn't exist yet. If it involves making complex systems legible, I'm interested."
+  },
+  "socialLinks": [
+    {
+      "name": "GitHub",
+      "href": "https://github.com/nabiloo19"
+    },
+    {
+      "name": "LinkedIn",
+      "href": "https://www.linkedin.com/in/nabiloo19"
+    },
+    {
+      "name": "Twitter",
+      "href": "https://x.com/nabiloo_19"
+    },
+    {
+      "name": "Medium",
+      "href": "https://nabil-alanssi19.medium.com/"
+    },
+    {
+      "name": "Linktree",
+      "href": "https://linktr.ee/nabiloo"
+    }
+  ]
+}

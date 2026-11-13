@@ -3,6 +3,7 @@
 import { useState, useEffect } from 'react'
 import { motion, AnimatePresence } from 'framer-motion'
 import { navLinks, socialLinks } from '@/lib/data'
+import { content } from '@/lib/content'
 
 export default function Navbar() {
   const [menuOpen, setMenuOpen] = useState(false)
@@ -43,7 +44,7 @@ export default function Navbar() {
 
           <div className="hidden md:flex items-center gap-4">
             <a
-              href="https://drive.google.com/file/d/1iqtQtiA9DqG-uofqNPMekf8qzdcn1LfC/view?usp=drive_link"
+              href={content.profile.resumeUrl}
               target="_blank"
               rel="noopener noreferrer"
               className="font-mono text-[11px] tracking-[0.14em] uppercase text-teal-dark border border-teal/40 px-5 py-2 rounded-full hover:bg-teal/10 transition-all"
@@ -120,7 +121,7 @@ export default function Navbar() {
 
               <div className="px-6 pb-8 border-t border-black/[0.06] pt-6 space-y-4">
                 <a
-                  href="https://drive.google.com/file/d/1iqtQtiA9DqG-uofqNPMekf8qzdcn1LfC/view?usp=drive_link"
+                  href={content.profile.resumeUrl}
                   target="_blank"
                   rel="noopener noreferrer"
                   className="flex items-center justify-center w-full font-mono text-xs tracking-widest uppercase text-teal-dark border border-teal/40 py-3 rounded-full hover:bg-teal/10 transition-all"

@@ -3,16 +3,9 @@
 import { motion } from 'framer-motion'
 import Marquee from '@/components/ui/Marquee'
 import SectionHeading from '@/components/ui/SectionHeading'
+import { content } from '@/lib/content'
 
-const row1 = ['API Documentation', 'OpenAPI / Swagger', 'Stoplight', 'APIDog', 'GitBook', 'Postman', 'Hoppscotch', 'Markdown / MDX', 'SDK Guides', 'Developer Portals']
-const row2 = ['Information Architecture', 'Developer Relations', 'UX Writing', 'Content Strategy', 'VueJS', 'Twig', 'JSON', 'Git & GitHub', 'Release Notes', 'Integration Tutorials']
-
-const categories = [
-  { label: 'Writing', items: ['API Documentation', 'SDK Guides', 'OpenAPI Specs', 'Release Notes', 'Integration Tutorials', 'UX Writing'] },
-  { label: 'Tools', items: ['Stoplight', 'APIDog', 'GitBook', 'Postman', 'Swagger', 'Hoppscotch'] },
-  { label: 'Tech', items: ['Markdown / MDX', 'JSON', 'HTML / CSS', 'Git & GitHub', 'VueJS', 'Twig'] },
-  { label: 'Strategy', items: ['Information Architecture', 'Developer Relations', 'Content Strategy', 'Developer Portals', 'Style Guides'] },
-]
+const { categories, marquee } = content.skills
 
 export default function Skills() {
   return (
@@ -41,8 +34,9 @@ export default function Skills() {
       </div>
 
       <div className="space-y-4 pt-16 border-t border-black/[0.07]">
-        <Marquee items={row1} speed={35} />
-        <Marquee items={row2} speed={28} reverse />
+        {marquee.map((row, i) => (
+          <Marquee key={i} items={row} speed={i % 2 ? 28 : 35} reverse={i % 2 === 1} />
+        ))}
       </div>
     </section>
   )

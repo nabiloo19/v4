@@ -2,13 +2,10 @@
 
 import { motion } from 'framer-motion'
 import SectionHeading from '@/components/ui/SectionHeading'
+import RichText from '@/components/ui/RichText'
+import { content } from '@/lib/content'
 
-const highlights = [
-  { label: 'Based in', value: 'Addis Ababa' },
-  { label: 'Currently at', value: 'Salla' },
-  { label: 'Specialising in', value: 'API Documentation' },
-  { label: 'Open to', value: 'Freelance & Full-time' },
-]
+const { quote, paragraphs, highlights } = content.about
 
 export default function About() {
   return (
@@ -25,7 +22,7 @@ export default function About() {
           className="border-l-2 border-teal pl-8 mb-16"
         >
           <p className="text-2xl md:text-3xl font-bold text-[#0a0a10] leading-[1.3] tracking-tight">
-            &ldquo;The gap between a good product and a successful product is often just documentation.&rdquo;
+            &ldquo;{quote}&rdquo;
           </p>
         </motion.blockquote>
 
@@ -37,23 +34,9 @@ export default function About() {
             transition={{ duration: 0.6 }}
             className="md:col-span-7 space-y-6 text-text-body leading-relaxed text-[1.05rem]"
           >
-            <p>
-              I&apos;m Nabil Mohammed, Lead Technical Writer and the person developers thank when the
-              docs actually made sense. I go by{' '}
-              <span className="text-teal-dark font-medium">&ldquo;Dev Docs Wizard&rdquo;</span> because I
-              believe that writing clear documentation is less about English and more about empathy for the developer experience.
-            </p>
-            <p>
-              Over 7+ years I&apos;ve worked across Google Developer Groups, governmental research
-              bodies, fintech startups, and one of the Middle East&apos;s largest e-commerce platforms.
-              At Salla I manage documentation for 7+ products, 300+ fully OpenAPI-compliant API
-              endpoints, and a developer community of 10,000+ builders. My docs have driven a{' '}
-              <span className="text-[#0a0a10] font-medium">75% improvement</span> in developer integrations.
-            </p>
-            <p>
-              When I&apos;m not in the docs, I&apos;m probably playing video games, rewatching Friends for
-              the 12th time, or finding more elegant ways to explain complex things.
-            </p>
+            {paragraphs.map((text, i) => (
+              <p key={i}><RichText text={text} /></p>
+            ))}
           </motion.div>
 
           <motion.div

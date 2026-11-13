@@ -1,33 +1,9 @@
 'use client'
 
 import { motion } from 'framer-motion'
+import { content } from '@/lib/content'
 
-const services = [
-  {
-    title: 'API Documentation',
-    description: 'End-to-end API reference documentation: endpoints, parameters, auth flows, error codes, and code samples across multiple languages.',
-  },
-  {
-    title: 'OpenAPI Specs',
-    description: 'Fully-compliant OpenAPI / Swagger specifications that work as the single source of truth for both your team and any tool that reads them.',
-  },
-  {
-    title: 'SDK Guides',
-    description: 'Getting started guides, integration tutorials, and SDK documentation that take a developer from zero to working in under an hour.',
-  },
-  {
-    title: 'Developer Portals',
-    description: 'Full documentation systems: information architecture, content strategy, tooling selection, style guides, and ongoing maintenance.',
-  },
-  {
-    title: 'Documentation Audits',
-    description: 'A structured review of your existing docs — identifying gaps, inconsistencies, and friction points, with a clear plan to fix them.',
-  },
-  {
-    title: 'Content Strategy',
-    description: 'Long-term documentation strategy for growing developer platforms: what to write, how to structure it, and how to measure success.',
-  },
-]
+const services = content.services.items
 
 export default function Services() {
   return (
@@ -61,10 +37,10 @@ export default function Services() {
 
         <div className="mt-16 pt-14 border-t border-white/[0.06] flex flex-col md:flex-row items-start md:items-center justify-between gap-6">
           <p className="text-white/60 text-sm max-w-md leading-relaxed">
-            Available for contract and freelance engagements. Specialising in developer-facing products with complex APIs.
+            {content.services.availability}
           </p>
           <a
-            href="mailto:nabil.alanssi19@gmail.com"
+            href={`mailto:${content.profile.email}`}
             className="font-mono text-sm text-teal border border-teal/30 px-7 py-3.5 rounded-full hover:bg-teal/10 transition-colors shrink-0"
           >
             Let&apos;s talk →

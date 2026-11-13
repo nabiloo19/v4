@@ -2,14 +2,9 @@
 
 import { motion } from 'framer-motion'
 import SectionHeading from '@/components/ui/SectionHeading'
+import { content } from '@/lib/content'
 
-const steps = [
-  { number: '01', title: 'Discover', description: 'Embed with engineering and product. Read the code, attend standups, interview developers. Docs written from a distance show it.' },
-  { number: '02', title: 'Architect', description: 'Map the information architecture before writing a word. What does the developer need first? What will they search for at 2am?' },
-  { number: '03', title: 'Write', description: 'Precise, scannable, human. Every sentence earns its place. Written for the developer who is frustrated and needs to ship.' },
-  { number: '04', title: 'Validate', description: 'Real developers test the docs. If they get stuck, that is a documentation bug. Iterate until zero-to-working is frictionless.' },
-  { number: '05', title: 'Measure', description: 'Track support deflection, time-to-first-call, integration rates. Docs are a product and should have metrics.' },
-]
+const steps = content.process.steps.map((s, i) => ({ ...s, number: String(i + 1).padStart(2, '0') }))
 
 export default function Process() {
   return (
@@ -18,7 +13,7 @@ export default function Process() {
         <div className="flex flex-col md:flex-row md:items-end justify-between gap-6 mb-20">
           <SectionHeading number="02" title="How I Work" />
           <p className="text-text-body text-sm leading-relaxed max-w-xs md:text-right md:mb-16 shrink-0">
-            Documentation treated as a core product, not an afterthought.
+            {content.process.intro}
           </p>
         </div>
 

@@ -2,6 +2,9 @@ import type { Metadata } from 'next'
 import { Inter, Fira_Code } from 'next/font/google'
 import './globals.css'
 import ServiceWorker from '@/components/ServiceWorker'
+import { content } from '@/lib/content'
+
+const { profile, seo } = content
 
 const inter = Inter({
   subsets: ['latin'],
@@ -16,10 +19,9 @@ const firaCode = Fira_Code({
 })
 
 export const metadata: Metadata = {
-  title: 'Nabil Mohammed | Lead Technical Writer',
-  description:
-    'Nabil Mohammed — Lead Technical Writer at Salla. 7+ years writing API docs, OpenAPI specs, and SDK guides for 10,000+ developers. Built for humans, ready for agents.',
-  authors: [{ name: 'Nabil Mohammed', url: 'https://nabiloo.tech' }],
+  title: seo.title,
+  description: seo.description,
+  authors: [{ name: profile.name, url: 'https://nabiloo.tech' }],
   keywords: [
     'Technical Writer', 'API Documentation', 'OpenAPI', 'SDK Guides',
     'Developer Documentation', 'Developer Experience', 'Salla', 'DX Writing',
@@ -31,20 +33,18 @@ export const metadata: Metadata = {
   },
   metadataBase: new URL('https://nabiloo.tech'),
   openGraph: {
-    title: 'Nabil Mohammed | Lead Technical Writer',
-    description:
-      'API docs, OpenAPI specs, and SDK guides built for humans and ready for agents. 7+ years, 300+ docs, 10,000+ developers served.',
+    title: seo.title,
+    description: seo.ogDescription,
     url: 'https://nabiloo.tech',
-    siteName: 'Nabil Mohammed',
+    siteName: profile.name,
     type: 'website',
     locale: 'en_US',
     images: [{ url: '/og.png', width: 1200, height: 630, alt: 'Nabil Mohammed — Lead Technical Writer' }],
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Nabil Mohammed | Lead Technical Writer',
-    description:
-      'API docs, OpenAPI specs, and SDK guides built for humans and ready for agents.',
+    title: seo.title,
+    description: seo.twitterDescription,
     creator: '@nabiloo_19',
     images: ['/og.png'],
   },
@@ -59,13 +59,12 @@ const jsonLd = {
     {
       '@type': 'Person',
       '@id': 'https://nabiloo.tech/#person',
-      name: 'Nabil Mohammed',
+      name: profile.name,
       url: 'https://nabiloo.tech',
       image: 'https://nabiloo.tech/me.jpeg',
-      jobTitle: 'Lead Technical Writer',
-      description:
-        'Lead Technical Writer specialising in API documentation, OpenAPI specs, SDK guides, and developer content built for humans and AI agents.',
-      email: 'nabil.alanssi19@gmail.com',
+      jobTitle: profile.jobTitle,
+      description: seo.personDescription,
+      email: profile.email,
       knowsAbout: [
         'API Documentation', 'OpenAPI Specification', 'SDK Documentation',
         'Developer Experience', 'Information Architecture', 'Technical Writing',
@@ -77,13 +76,7 @@ const jsonLd = {
         url: 'https://salla.com',
       },
       address: { '@type': 'PostalAddress', addressLocality: 'Addis Ababa', addressCountry: 'ET' },
-      sameAs: [
-        'https://github.com/nabiloo19',
-        'https://www.linkedin.com/in/nabiloo19',
-        'https://x.com/nabiloo_19',
-        'https://nabil-alanssi19.medium.com/',
-        'https://linktr.ee/nabiloo',
-      ],
+      sameAs: content.socialLinks.map(l => l.href),
     },
     {
       '@type': 'WebSite',
@@ -104,7 +97,8 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
       <head>
         <script
           type="application/ld+json"
-          dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+          // Escape "<" so edited text can never close this script tag early.
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd).replace(/</g, '\\u003c') }}
         />
       </head>
       <body className={`${inter.variable} ${firaCode.variable} font-sans antialiased`}>

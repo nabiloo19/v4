@@ -1,7 +1,11 @@
 'use client'
 
+import { Fragment } from 'react'
 import { motion } from 'framer-motion'
 import { socialLinks } from '@/lib/data'
+import { content } from '@/lib/content'
+
+const { contact, profile } = content
 
 const iconMap: Record<string, React.ReactNode> = {
   GitHub: (
@@ -44,17 +48,16 @@ export default function Contact() {
           <p className="font-mono text-[11px] tracking-[0.32em] uppercase text-teal-dark mb-8">Get in touch</p>
 
           <h2 className="text-4xl md:text-6xl font-bold text-[#0a0a10] mb-6 leading-[1.06] tracking-tight">
-            Let&apos;s build something<br />
-            <span className="text-gradient">worth documenting.</span>
+            {contact.headline.map((line, i) => <Fragment key={i}>{line}<br /></Fragment>)}
+            <span className="text-gradient">{contact.headlineAccent}</span>
           </h2>
 
           <p className="text-text-body text-lg leading-relaxed mb-12 max-w-md mx-auto">
-            API docs, developer portals, AI-ready specs, or something that doesn&apos;t exist yet.
-            If it involves making complex systems legible, I&apos;m interested.
+            {contact.text}
           </p>
 
           <a
-            href="mailto:nabil.alanssi19@gmail.com"
+            href={`mailto:${profile.email}`}
             className="group inline-flex items-center gap-3 bg-[#0a0a10] text-[#fafaf9] font-mono font-bold text-sm px-10 py-4 rounded-full hover:bg-[#1a1a24] transition-colors mb-14"
           >
             Say Hello

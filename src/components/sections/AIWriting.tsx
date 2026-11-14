@@ -24,7 +24,7 @@ function usePrefersReducedMotion() {
 const terminalLines = [
   { prefix: '→', text: 'Fetching tool: salla_create_app', dim: false },
   { prefix: '·', text: 'Reading: docs.salla.dev/openapi.json', dim: true },
-  { prefix: '✓', text: 'Schema loaded: 300 endpoints resolved', dim: false },
+  { prefix: '✓', text: 'Schema loaded: 440+ endpoints resolved', dim: false },
   { prefix: '→', text: 'Generating OAuth2 integration...', dim: true },
   { prefix: '✓', text: 'Code generated from documented spec', dim: false },
 ]

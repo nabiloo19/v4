@@ -3,14 +3,16 @@ import Navbar from '@/components/Navbar'
 import Hero from '@/components/sections/Hero'
 import MotionProvider from '@/components/MotionProvider'
 
-const Skills     = dynamic(() => import('@/components/sections/Skills'),     { ssr: false })
-const About      = dynamic(() => import('@/components/sections/About'),      { ssr: false })
-const Experience = dynamic(() => import('@/components/sections/Experience'), { ssr: false })
-const Work       = dynamic(() => import('@/components/sections/Work'),       { ssr: false })
-const AIWriting  = dynamic(() => import('@/components/sections/AIWriting'),  { ssr: false })
-const Services   = dynamic(() => import('@/components/sections/Services'),   { ssr: false })
-const Contact    = dynamic(() => import('@/components/sections/Contact'),    { ssr: false })
-const Footer     = dynamic(() => import('@/components/Footer'),              { ssr: false })
+// Split into separate chunks but still server-rendered, so the text is in the
+// HTML and links like /#experience land on the section.
+const Skills     = dynamic(() => import('@/components/sections/Skills'))
+const About      = dynamic(() => import('@/components/sections/About'))
+const Experience = dynamic(() => import('@/components/sections/Experience'))
+const Work       = dynamic(() => import('@/components/sections/Work'))
+const AIWriting  = dynamic(() => import('@/components/sections/AIWriting'))
+const Services   = dynamic(() => import('@/components/sections/Services'))
+const Contact    = dynamic(() => import('@/components/sections/Contact'))
+const Footer     = dynamic(() => import('@/components/Footer'))
 
 // Order: who he is (Hero, About), proof (Experience, Work, Writing for AI),
 // then what he offers (Services + How I Work) and Contact.

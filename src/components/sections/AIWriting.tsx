@@ -1,11 +1,25 @@
 'use client'
 
 import { useEffect, useState } from 'react'
-import { motion, useReducedMotion } from 'framer-motion'
+import { motion } from 'framer-motion'
 import SectionHeading from '@/components/ui/SectionHeading'
 import { content } from '@/lib/content'
 
 const pillars = content.aiWriting.pillars
+
+// Read after mount (not during render) so the server HTML and the first
+// client render match; follows the OS setting if it changes.
+function usePrefersReducedMotion() {
+  const [reduce, setReduce] = useState(false)
+  useEffect(() => {
+    const mq = window.matchMedia('(prefers-reduced-motion: reduce)')
+    const update = () => setReduce(mq.matches)
+    update()
+    mq.addEventListener('change', update)
+    return () => mq.removeEventListener('change', update)
+  }, [])
+  return reduce
+}
 
 const terminalLines = [
   { prefix: '→', text: 'Fetching tool: salla_create_app', dim: false },
@@ -16,7 +30,7 @@ const terminalLines = [
 ]
 
 export default function AIWriting() {
-  const reduceMotion = useReducedMotion()
+  const reduceMotion = usePrefersReducedMotion()
   const [visibleCount, setVisibleCount] = useState(0)
   const [fading, setFading] = useState(false)
 

@@ -18,11 +18,11 @@ export default function Footer() {
 
   return (
     <footer className="border-t border-black/[0.07] bg-[#f2f1ee]">
-      <div className="max-w-6xl mx-auto px-6 py-14">
-        <div className="flex flex-col md:flex-row justify-between gap-12 mb-12">
+      <div className="max-w-6xl mx-auto px-6 py-10">
+        <div className="grid grid-cols-1 md:grid-cols-[minmax(0,20rem)_auto_auto] md:justify-between gap-8 md:gap-12 mb-8">
 
-          <div className="max-w-xs">
-            <a href="/" className="font-mono text-lg font-bold tracking-widest text-[#0a0a10] hover:text-teal-dark transition-colors inline-block mb-4">
+          <div>
+            <a href="/" className="font-mono text-lg font-bold tracking-widest text-[#0a0a10] hover:text-teal-dark transition-colors inline-block mb-3">
               NM<span className="text-teal">.</span>
             </a>
             <p className="text-text-body text-sm leading-relaxed">
@@ -31,8 +31,8 @@ export default function Footer() {
           </div>
 
           <div>
-            <p className="font-mono text-[10px] text-text-muted tracking-[0.22em] uppercase mb-5">Navigation</p>
-            <ul className="space-y-3">
+            <p className="font-mono text-[10px] text-text-muted tracking-[0.22em] uppercase mb-3">Navigation</p>
+            <ul className="flex flex-wrap gap-x-5 gap-y-2 max-w-xs">
               {navLinks.map(link => (
                 <li key={link.name}>
                   <a href={link.href} className="font-mono text-xs text-text-body hover:text-teal-dark transition-colors">
@@ -44,8 +44,8 @@ export default function Footer() {
           </div>
 
           <div>
-            <p className="font-mono text-[10px] text-text-muted tracking-[0.22em] uppercase mb-5">Get in touch</p>
-            <a href={`mailto:${content.profile.email}`} className="font-mono text-xs text-teal-dark hover:underline underline-offset-4 block mb-5">
+            <p className="font-mono text-[10px] text-text-muted tracking-[0.22em] uppercase mb-3">Get in touch</p>
+            <a href={`mailto:${content.profile.email}`} className="font-mono text-xs text-teal-dark hover:underline underline-offset-4 block mb-4">
               {content.profile.email}
             </a>
             <a
@@ -59,7 +59,7 @@ export default function Footer() {
           </div>
         </div>
 
-        <div className="flex flex-col sm:flex-row items-center justify-between gap-4 pt-8 border-t border-black/[0.07]">
+        <div className="flex flex-col sm:flex-row items-center justify-between gap-4 pt-6 border-t border-black/[0.07]">
           <p className="font-mono text-xs text-text-muted">
             &copy; {year} {content.profile.name}. All rights reserved.
           </p>

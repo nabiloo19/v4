@@ -241,6 +241,6 @@ export const FORMAT_NOTES = {
   paths: 'JSON Pointer into the content, e.g. /jobs/0/bullets/1. Use /- at the end of a list path to append.',
   ops: 'set {path, value, expect?}, insert {path, value}, remove {path, expect?}. expect = the value you saw; the edit is refused if the site changed since.',
   inline: 'In about.paragraphs, **text** = dark emphasis, ==text== = accent colour. Everything else is plain text.',
-  experience: 'The Experience section shows only the first 2 bullets of each job; order them by importance.',
+  experience: 'The Experience section shows one job at a time (a tab per company) with all of its bullets; put the most important bullet first.',
   ids: 'featuredProjects are numbered by position (01, 02, ...); process steps likewise.',
 }

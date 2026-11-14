@@ -2,11 +2,12 @@ import { content } from '@/lib/content'
 
 // Structural navigation stays in code. Everything else comes from
 // src/content/site.json, which the content API can edit.
+// Same order as the sections on the page.
 export const navLinks = [
   { name: 'About', href: '#about' },
-  { name: 'Services', href: '#services' },
-  { name: 'Work', href: '#work' },
   { name: 'Experience', href: '#experience' },
+  { name: 'Work', href: '#work' },
+  { name: 'Services', href: '#services' },
   { name: 'Contact', href: '#contact' },
 ]
 

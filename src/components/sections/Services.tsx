@@ -27,7 +27,7 @@ export default function Services() {
           </div>
         </SectionHeading>
 
-        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-px bg-white/[0.06] border-y border-white/[0.06]">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-px bg-white/[0.06] border-y border-white/[0.06]">
           {services.map((s, i) => (
             <motion.div
               key={s.title}

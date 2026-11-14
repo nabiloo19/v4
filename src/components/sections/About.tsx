@@ -14,7 +14,7 @@ export default function About() {
       <div className="max-w-6xl mx-auto px-6">
         <SectionHeading number="01" title="About Me" />
 
-        <div className="grid md:grid-cols-12 gap-10 md:gap-12 lg:gap-16">
+        <div className="grid grid-cols-1 md:grid-cols-12 gap-10 md:gap-12 lg:gap-16">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}

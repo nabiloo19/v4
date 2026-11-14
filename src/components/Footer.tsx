@@ -19,7 +19,7 @@ export default function Footer() {
   return (
     <footer className="border-t border-black/[0.07] bg-[#f2f1ee]">
       <div className="max-w-6xl mx-auto px-6 py-10">
-        <div className="grid md:grid-cols-[minmax(0,20rem)_auto_auto] md:justify-between gap-8 md:gap-12 mb-8">
+        <div className="grid grid-cols-1 md:grid-cols-[minmax(0,20rem)_auto_auto] md:justify-between gap-8 md:gap-12 mb-8">
 
           <div>
             <a href="/" className="font-mono text-lg font-bold tracking-widest text-[#0a0a10] hover:text-teal-dark transition-colors inline-block mb-3">

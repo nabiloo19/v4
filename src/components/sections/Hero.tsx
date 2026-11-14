@@ -12,7 +12,7 @@ export default function Hero() {
     <section className="bg-[#fafaf9] overflow-hidden">
       <div className="max-w-6xl mx-auto px-6 w-full pt-[120px] pb-12 md:pt-28 md:pb-16">
 
-        <div className="grid md:grid-cols-[1fr_260px] lg:grid-cols-[1fr_300px] gap-10 lg:gap-20 items-center">
+        <div className="grid grid-cols-1 md:grid-cols-[1fr_260px] lg:grid-cols-[1fr_300px] gap-10 lg:gap-20 items-center">
 
           {/* Left: who, what, proof */}
           <motion.div

@@ -43,7 +43,7 @@ export default function AIWriting() {
       <div className="max-w-6xl mx-auto px-6">
         <SectionHeading number="04" title="Writing for AI" />
 
-        <div className="grid lg:grid-cols-12 gap-8 lg:gap-10">
+        <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-10">
           {/* Left: intro + terminal */}
           <div className="lg:col-span-5 flex flex-col gap-6">
             <p className="text-text-body text-base md:text-lg leading-relaxed">
@@ -61,7 +61,7 @@ export default function AIWriting() {
                 <div className="w-2.5 h-2.5 rounded-full bg-black/10" />
                 <div className="w-2.5 h-2.5 rounded-full bg-black/10" />
                 <div className="w-2.5 h-2.5 rounded-full bg-black/10" />
-                <span className="font-mono text-[11px] text-text-muted ml-3 truncate">mcp · salla-partners-portal</span>
+                <span className="min-w-0 font-mono text-[11px] text-text-muted ml-3 truncate">mcp · salla-partners-portal</span>
                 <span className="ml-auto shrink-0 font-mono text-[10px] text-teal-dark bg-teal/[0.08] border border-teal/20 px-2.5 py-1 rounded-full flex items-center gap-1.5">
                   <span className="w-1.5 h-1.5 rounded-full bg-teal animate-pulse motion-reduce:animate-none" />
                   live

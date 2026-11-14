@@ -43,7 +43,7 @@ export default function Contact() {
         whileInView={{ opacity: 1, y: 0 }}
         viewport={{ once: true }}
         transition={{ duration: 0.6 }}
-        className="max-w-6xl mx-auto px-6 grid md:grid-cols-[1fr_auto] gap-8 md:gap-16 md:items-end"
+        className="max-w-6xl mx-auto px-6 grid grid-cols-1 md:grid-cols-[1fr_auto] gap-8 md:gap-16 md:items-end"
       >
         <div>
           <p className="font-mono text-[11px] tracking-[0.32em] uppercase text-teal-dark mb-5">Get in touch</p>

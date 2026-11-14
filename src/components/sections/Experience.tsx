@@ -35,7 +35,7 @@ export default function Experience() {
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
           transition={{ duration: 0.5 }}
-          className="grid md:grid-cols-[260px_1fr] gap-6 md:gap-12"
+          className="grid grid-cols-1 md:grid-cols-[260px_1fr] gap-6 md:gap-12"
         >
           {/* Tabs */}
           <div

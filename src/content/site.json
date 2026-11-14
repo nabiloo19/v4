@@ -8,17 +8,26 @@
   "seo": {
     "title": "Nabil Mohammed | Lead Technical Writer",
     "description": "Nabil Mohammed, Lead Technical Writer at Salla. 7+ years writing API docs, OpenAPI specs, and SDK guides for 75,000+ developers. Built for humans, ready for agents.",
-    "ogDescription": "API docs, OpenAPI specs, and SDK guides built for humans and ready for agents. 7+ years, 440+ API endpoints, 96 tutorials, 75,000+ developers served.",
+    "ogDescription": "API docs, OpenAPI specs, and SDK guides built for humans and ready for agents. 7+ years, 11 developer products, 440+ API endpoints, 75,000+ developers served.",
     "twitterDescription": "API docs, OpenAPI specs, and SDK guides built for humans and ready for agents.",
     "personDescription": "Lead Technical Writer specialising in API documentation, OpenAPI specs, SDK guides, and developer content built for humans and AI agents."
   },
   "hero": {
     "eyebrow": "Lead Technical Writer · Salla",
     "headline": [
-      "The writer",
-      "developers"
+      "I write"
     ],
-    "headlineAccent": "actually thank.",
+    "headlineRotate": [
+      "API docs",
+      "OpenAPI specs",
+      "SDK guides",
+      "dev portals",
+      "release notes"
+    ],
+    "headlineAfter": [
+      "built for humans,"
+    ],
+    "headlineAccent": "ready for agents.",
     "subtitle": "Seven years turning APIs, SDKs, and developer platforms into documentation that ships adoption, and that AI agents now read to build on top.",
     "stats": [
       {
@@ -43,7 +52,7 @@
     "quote": "The gap between a good product and a successful product is often just documentation.",
     "paragraphs": [
       "I'm Nabil Mohammed, Lead Technical Writer and the person developers thank when the docs actually made sense. I go by ==“Dev Docs Wizard”== because I believe that writing clear documentation is less about English and more about empathy for the developer experience.",
-      "Over 7+ years I've worked across Google Developer Groups, governmental research bodies, fintech startups, and one of the Middle East's largest e-commerce platforms. At Salla I manage documentation for 11 developer products, 440+ OpenAPI-compliant API endpoints and 96 tutorials, for a developer community of 75,000+ builders. My docs have driven a **75% improvement** in developer integrations.",
+      "Over 7+ years I've worked across Google Developer Groups, governmental research bodies, fintech startups, and one of the Middle East's largest e-commerce platforms. At Salla I manage documentation for 11 developer products and 440+ OpenAPI-compliant API endpoints, for a developer community of 75,000+ builders. My docs have driven a **75% improvement** in developer integrations.",
       "When I'm not in the docs, I'm probably playing video games, rewatching Friends for the 12th time, or finding more elegant ways to explain complex things."
     ],
     "highlights": [
@@ -213,7 +222,7 @@
   "featuredProjects": [
     {
       "title": "Salla Developer Documentation System",
-      "description": "Built the entire documentation system for Salla's developer ecosystem from scratch: 440+ API endpoints across 11 developer products, 96 tutorials, 43 guides, SDK guides, and a developer knowledgebase serving 5,000+ active developers across 65,000+ merchants. I designed the information architecture, chose the toolchain, and established the style guide still used today.",
+      "description": "Built the entire documentation system for Salla's developer ecosystem from scratch: 440+ API endpoints across 11 developer products, tutorials, SDK guides, and a developer knowledgebase serving 5,000+ active developers across 65,000+ merchants. I designed the information architecture, chose the toolchain, and established the style guide still used today.",
       "tech": [
         "API Documentation",
         "Information Architecture",
@@ -374,7 +383,7 @@
       "url": "https://salla.dev/",
       "bullets": [
         "Lead the documentation for 11 developer products and 440+ OpenAPI endpoints, improving developer integrations by 75%.",
-        "Designed the information architecture of Salla's developer docs and wrote 96 tutorials and 43 guides across apps, themes, APIs and AI tooling.",
+        "Designed the information architecture of Salla's developer docs and wrote tutorials and guides across apps, themes, APIs and AI tooling.",
         "Wrote most of the content behind Salla's public MCP server, which AI agents use to build apps and themes on Salla.",
         "Grew self-service adoption by 58% and cut support inquiries by 63% across 75,000+ developers; led 3 writers in English and Arabic."
       ]

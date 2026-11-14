@@ -14,7 +14,7 @@ export interface OtherProject {
 export interface SiteContent {
   profile: { name: string; jobTitle: string; email: string; resumeUrl: string }
   seo: { title: string; description: string; ogDescription: string; twitterDescription: string; personDescription: string }
-  hero: { eyebrow: string; headline: string[]; headlineAccent: string; subtitle: string; stats: Stat[] }
+  hero: { eyebrow: string; headline: string[]; headlineRotate: string[]; headlineAfter: string[]; headlineAccent: string; subtitle: string; stats: Stat[] }
   about: { quote: string; paragraphs: string[]; highlights: LabelValue[] }
   services: { items: { title: string; description: string }[]; availability: string }
   process: { intro: string; steps: { title: string; description: string }[] }
@@ -54,7 +54,8 @@ export const siteSpec: Spec = obj({
     twitterDescription: str(LINE), personDescription: str(LINE),
   }),
   hero: obj({
-    eyebrow: str(SHORT), headline: arr(str(60), 4), headlineAccent: str(60), subtitle: str(LINE),
+    eyebrow: str(SHORT), headline: arr(str(60), 4), headlineRotate: arr(str(24), 8), headlineAfter: arr(str(60), 4),
+    headlineAccent: str(60), subtitle: str(LINE),
     stats: arr(obj({ value: str(12), label: str(24) }), 6),
   }),
   about: obj({

@@ -1,11 +1,40 @@
 'use client'
 
-import { Fragment } from 'react'
-import { motion } from 'framer-motion'
+import { Fragment, useEffect, useState } from 'react'
+import { AnimatePresence, motion, useReducedMotion } from 'framer-motion'
 import { content } from '@/lib/content'
 
 const { hero, profile } = content
 const { highlights } = content.about
+
+// One word at a time, sliding up. With reduced motion it stays on the first word.
+function RotatingWord({ words }: { words: string[] }) {
+  const [i, setI] = useState(0)
+  const reduce = useReducedMotion()
+
+  useEffect(() => {
+    if (reduce || words.length < 2) return
+    const id = setInterval(() => setI(n => (n + 1) % words.length), 2200)
+    return () => clearInterval(id)
+  }, [reduce, words.length])
+
+  return (
+    <span className="block overflow-hidden whitespace-nowrap h-[1.1em]">
+      <AnimatePresence mode="wait" initial={false}>
+        <motion.span
+          key={i}
+          initial={{ y: '100%', opacity: 0 }}
+          animate={{ y: '0%', opacity: 1 }}
+          exit={{ y: '-100%', opacity: 0 }}
+          transition={{ duration: 0.45, ease: [0.22, 1, 0.36, 1] }}
+          className="inline-block text-gradient pb-[0.06em]"
+        >
+          {words[i]}
+        </motion.span>
+      </AnimatePresence>
+    </span>
+  )
+}
 
 export default function Hero() {
   return (
@@ -25,8 +54,15 @@ export default function Hero() {
             </p>
 
             <h1 className="text-[clamp(2.5rem,5.4vw,4.75rem)] font-bold text-[#0a0a10] leading-[1.04] tracking-tight mb-5 md:mb-6">
-              {hero.headline.map((line, i) => <Fragment key={i}>{line}<br /></Fragment>)}
-              <span className="text-gradient">{hero.headlineAccent}</span>
+              <span className="sr-only">
+                {[...hero.headline, hero.headlineRotate.join(', '), ...hero.headlineAfter, hero.headlineAccent].join(' ')}
+              </span>
+              <span aria-hidden="true">
+                {hero.headline.map((line, i) => <Fragment key={i}>{line}<br /></Fragment>)}
+                <RotatingWord words={hero.headlineRotate} />
+                {hero.headlineAfter.map((line, i) => <Fragment key={i}>{line}<br /></Fragment>)}
+                <span className="text-text-muted">{hero.headlineAccent}</span>
+              </span>
             </h1>
 
             <p className="max-w-md text-text-body text-base md:text-lg leading-relaxed mb-7">

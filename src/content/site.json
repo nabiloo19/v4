@@ -3,7 +3,7 @@
     "name": "Nabil Mohammed",
     "jobTitle": "Lead Technical Writer",
     "email": "nabil.alanssi19@gmail.com",
-    "resumeUrl": "https://drive.google.com/file/d/1iqtQtiA9DqG-uofqNPMekf8qzdcn1LfC/view?usp=drive_link"
+    "resumeUrl": "https://nabiloo.tech/Nabil-Mohammed-CV.pdf"
   },
   "seo": {
     "title": "Nabil Mohammed | Lead Technical Writer",
@@ -323,7 +323,7 @@
     },
     {
       "title": "Banks in Ethiopia",
-      "company": "Addis Software",
+      "company": "Swenetix Tech",
       "description": "Produced comprehensive web content covering Ethiopian banking institutions, services, and financial literacy information.",
       "tech": [
         "Content Writing",
@@ -370,7 +370,7 @@
     {
       "company": "Salla",
       "title": "Lead Technical Writer",
-      "range": "Feb 2021 - Present",
+      "range": "Feb 2021 - Present · Lead since Mar 2026",
       "url": "https://salla.dev/",
       "bullets": [
         "Lead the documentation for 11 developer products and 440+ OpenAPI endpoints, improving developer integrations by 75%.",
@@ -423,13 +423,13 @@
       ]
     },
     {
-      "company": "Addis Software",
-      "title": "UX Writer",
-      "range": "2018 - 2019",
-      "url": "https://addissoftware.com/",
+      "company": "Swenetix Tech",
+      "title": "Technical Writer",
+      "range": "Sep 2018 - Jun 2019 · Part-time",
+      "url": "",
       "bullets": [
-        "Crafted UX copy across web and mobile products: microcopy, onboarding flows, error messages, and tooltips for developer-facing and consumer interfaces.",
-        "Produced web content and technical writing for fintech and software products including Banks in Ethiopia, maintaining a consistent editorial voice."
+        "Built the SEO content for Banks in Ethiopia, which reached 50,000+ views a month through organic search.",
+        "Wrote user guides and manuals for 4 in-house apps and kept the knowledge base current."
       ]
     },
     {

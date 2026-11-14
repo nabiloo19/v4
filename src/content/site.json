@@ -28,7 +28,7 @@
       "built for humans,"
     ],
     "headlineAccent": "ready for agents.",
-    "subtitle": "Seven years turning APIs, SDKs, and developer platforms into documentation that ships adoption, and that AI agents now read to build on top.",
+    "subtitle": "Seven years turning APIs, SDKs, and developer platforms into documentation that drives adoption. Today I lead the docs at Salla, one of the Middle East's largest e-commerce platforms, and AI agents read them to build on top.",
     "stats": [
       {
         "value": "7+",
@@ -43,17 +43,17 @@
         "label": "Developers"
       },
       {
-        "value": "100%",
-        "label": "OpenAPI"
+        "value": "63%",
+        "label": "Fewer support inquiries"
       }
     ]
   },
   "about": {
     "quote": "The gap between a good product and a successful product is often just documentation.",
     "paragraphs": [
-      "I'm Nabil Mohammed, Lead Technical Writer and the person developers thank when the docs actually made sense. I go by ==“Dev Docs Wizard”== because I believe that writing clear documentation is less about English and more about empathy for the developer experience.",
-      "Over 7+ years I've worked across Google Developer Groups, governmental research bodies, fintech startups, and one of the Middle East's largest e-commerce platforms. At Salla I manage documentation for 11 developer products and 440+ OpenAPI-compliant API endpoints, for a developer community of 75,000+ builders. My docs have driven a **75% improvement** in developer integrations.",
-      "When I'm not in the docs, I'm probably playing video games, rewatching Friends for the 12th time, or finding more elegant ways to explain complex things."
+      "I'm Nabil Mohammed, Lead Technical Writer at Salla, where I lead the developer documentation for one of the Middle East's largest e-commerce platforms. I go by ==“Dev Docs Wizard”== because I make complex platforms simple for the developers, and now the AI agents, building on them.",
+      "Over seven years I've worked across Google Developer Groups, government research bodies, fintech startups, and Salla. At Salla I lead documentation for 11 developer products and 440+ OpenAPI endpoints, used by 75,000+ developers. My docs improved developer integrations by **75%** and cut support inquiries by **63%**.",
+      "Outside work I co-organize GDG Addis Ababa, a community of 5,000+ developers, and I'm always looking for a clearer way to explain complex things."
     ],
     "highlights": [
       {
@@ -70,7 +70,7 @@
       },
       {
         "label": "Open to",
-        "value": "Freelance & Full-time"
+        "value": "Full-time & Contract"
       }
     ]
   },
@@ -86,7 +86,7 @@
       },
       {
         "title": "SDK Guides",
-        "description": "Getting started guides, integration tutorials, and SDK documentation that take a developer from zero to working in under an hour."
+        "description": "Getting started guides, integration tutorials, and SDK documentation that take a developer from zero to a working integration."
       },
       {
         "title": "Developer Portals",
@@ -101,7 +101,7 @@
         "description": "Long-term documentation strategy for growing developer platforms: what to write, how to structure it, and how to measure success."
       }
     ],
-    "availability": "Available for contract and freelance engagements. Specialising in developer-facing products with complex APIs."
+    "availability": "Open to Lead and Senior Technical Writer roles, full-time or contract. Remote, or on-site in the GCC."
   },
   "process": {
     "intro": "Documentation treated as a core product, not an afterthought.",
@@ -222,7 +222,7 @@
   "featuredProjects": [
     {
       "title": "Salla Developer Documentation System",
-      "description": "Built the entire documentation system for Salla's developer ecosystem from scratch: 440+ API endpoints across 11 developer products, tutorials, SDK guides, and a developer knowledgebase serving 5,000+ active developers across 65,000+ merchants. I designed the information architecture, chose the toolchain, and established the style guide still used today.",
+      "description": "Built the entire documentation system for Salla's developer ecosystem from scratch: 440+ API endpoints across 11 developer products, tutorials, SDK guides, and a developer knowledge base used by 75,000+ developers. I designed the information architecture, chose the toolchain, and established the style guide still used today.",
       "tech": [
         "API Documentation",
         "Information Architecture",
@@ -275,7 +275,7 @@
     {
       "title": "Salla Developer Portal",
       "company": "Salla",
-      "description": "UX writing, SEO content, and site management for the Salla developer-facing portal used by thousands of partners.",
+      "description": "UX writing and SEO content for salla.dev, the developer portal for Salla's 75,000+ developers.",
       "tech": [
         "UX Writing",
         "SEO",
@@ -427,7 +427,7 @@
       "range": "Jan 2020 - Jun 2020",
       "url": "",
       "bullets": [
-        "Produced technical documentation and developer-facing content for ecommerce solutions.",
+        "Published product manuals and admin guides for 2,000+ customers, improving self-service adoption.",
         "Created integration tutorials and API reference guides for merchant and developer audiences."
       ]
     },
@@ -457,7 +457,7 @@
       "Let's build something"
     ],
     "headlineAccent": "worth documenting.",
-    "text": "API docs, developer portals, AI-ready specs, or something that doesn't exist yet. If it involves making complex systems legible, I'm interested."
+    "text": "Building an API, a developer platform, or docs for AI agents? I lead documentation that developers adopt and agents can act on. Let's talk."
   },
   "socialLinks": [
     {

@@ -7,7 +7,7 @@
   },
   "seo": {
     "title": "Nabil Mohammed | Lead Technical Writer",
-    "description": "Nabil Mohammed — Lead Technical Writer at Salla. 7+ years writing API docs, OpenAPI specs, and SDK guides for 75,000+ developers. Built for humans, ready for agents.",
+    "description": "Nabil Mohammed, Lead Technical Writer at Salla. 7+ years writing API docs, OpenAPI specs, and SDK guides for 75,000+ developers. Built for humans, ready for agents.",
     "ogDescription": "API docs, OpenAPI specs, and SDK guides built for humans and ready for agents. 7+ years, 440+ API endpoints, 96 tutorials, 75,000+ developers served.",
     "twitterDescription": "API docs, OpenAPI specs, and SDK guides built for humans and ready for agents.",
     "personDescription": "Lead Technical Writer specialising in API documentation, OpenAPI specs, SDK guides, and developer content built for humans and AI agents."
@@ -19,7 +19,7 @@
       "developers"
     ],
     "headlineAccent": "actually thank.",
-    "subtitle": "Seven years turning APIs, SDKs, and developer platforms into documentation that ships adoption — and that AI agents now read to build on top.",
+    "subtitle": "Seven years turning APIs, SDKs, and developer platforms into documentation that ships adoption, and that AI agents now read to build on top.",
     "stats": [
       {
         "value": "7+",
@@ -85,7 +85,7 @@
       },
       {
         "title": "Documentation Audits",
-        "description": "A structured review of your existing docs — identifying gaps, inconsistencies, and friction points, with a clear plan to fix them."
+        "description": "A structured review of your existing docs that finds gaps, inconsistencies, and friction points, with a clear plan to fix them."
       },
       {
         "title": "Content Strategy",

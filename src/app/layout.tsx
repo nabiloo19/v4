@@ -39,7 +39,7 @@ export const metadata: Metadata = {
     siteName: profile.name,
     type: 'website',
     locale: 'en_US',
-    images: [{ url: '/og.png', width: 1200, height: 630, alt: 'Nabil Mohammed — Lead Technical Writer' }],
+    images: [{ url: '/og.png', width: 1200, height: 630, alt: 'Nabil Mohammed, Lead Technical Writer' }],
   },
   twitter: {
     card: 'summary_large_image',
@@ -82,7 +82,7 @@ const jsonLd = {
       '@type': 'WebSite',
       '@id': 'https://nabiloo.tech/#website',
       url: 'https://nabiloo.tech',
-      name: 'Nabil Mohammed — Lead Technical Writer',
+      name: 'Nabil Mohammed, Lead Technical Writer',
       description:
         'Portfolio of Nabil Mohammed, Lead Technical Writer at Salla. API docs, OpenAPI specs, and developer content built for humans and ready for agents.',
       author: { '@id': 'https://nabiloo.tech/#person' },

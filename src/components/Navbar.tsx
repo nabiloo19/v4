@@ -4,15 +4,43 @@ import { useState, useEffect } from 'react'
 import { motion, AnimatePresence } from 'framer-motion'
 import { navLinks, socialLinks } from '@/lib/data'
 import { content } from '@/lib/content'
+import { clsx as cn } from 'clsx'
+
+const sectionIds = navLinks.map(l => l.href.slice(1))
 
 export default function Navbar() {
   const [menuOpen, setMenuOpen] = useState(false)
   const [scrolled, setScrolled] = useState(false)
+  const [active, setActive] = useState('')
 
+  // Scroll state + which section is under the top third of the screen.
   useEffect(() => {
-    const onScroll = () => setScrolled(window.scrollY > 20)
-    window.addEventListener('scroll', onScroll)
-    return () => window.removeEventListener('scroll', onScroll)
+    let frame = 0
+    const update = () => {
+      frame = 0
+      setScrolled(window.scrollY > 20)
+      const line = window.innerHeight * 0.35
+      let current = ''
+      let best = -Infinity
+      for (const id of sectionIds) {
+        const el = document.getElementById(id)
+        if (!el) continue
+        const top = el.getBoundingClientRect().top
+        if (top <= line && top > best) { best = top; current = id }
+      }
+      const atBottom = window.innerHeight + window.scrollY >= document.documentElement.scrollHeight - 4
+      if (atBottom && document.getElementById(sectionIds[sectionIds.length - 1])) current = sectionIds[sectionIds.length - 1]
+      setActive(current)
+    }
+    const onScroll = () => { if (!frame) frame = requestAnimationFrame(update) }
+    update()
+    window.addEventListener('scroll', onScroll, { passive: true })
+    window.addEventListener('resize', onScroll)
+    return () => {
+      window.removeEventListener('scroll', onScroll)
+      window.removeEventListener('resize', onScroll)
+      if (frame) cancelAnimationFrame(frame)
+    }
   }, [])
 
   useEffect(() => {
@@ -22,8 +50,8 @@ export default function Navbar() {
 
   return (
     <>
-      <header className={`fixed top-0 left-0 right-0 z-50 bg-[#fafaf9]/95 backdrop-blur-sm transition-all duration-300 ${scrolled ? 'border-b border-black/[0.07]' : ''}`}>
-        <div className="max-w-6xl mx-auto px-6 h-16 flex items-center justify-between">
+      <header className={`fixed top-0 left-0 right-0 z-50 bg-[#fafaf9]/95 backdrop-blur-sm transition-colors duration-300 border-b ${scrolled ? 'border-black/[0.07]' : 'border-transparent'}`}>
+        <div className="max-w-6xl mx-auto px-6 h-14 md:h-16 flex items-center justify-between">
 
           <a href="/" className="font-mono text-sm font-bold tracking-widest text-[#0a0a10] hover:text-teal-dark transition-colors">
             NM<span className="text-teal">.</span>
@@ -31,15 +59,29 @@ export default function Navbar() {
 
           {/* Desktop nav */}
           <nav className="hidden md:flex items-center gap-1">
-            {navLinks.map(link => (
-              <a
-                key={link.name}
-                href={link.href}
-                className="font-mono text-[11px] tracking-[0.14em] uppercase text-text-muted hover:text-[#0a0a10] px-3.5 py-2 transition-colors"
-              >
-                {link.name}
-              </a>
-            ))}
+            {navLinks.map(link => {
+              const isActive = active === link.href.slice(1)
+              return (
+                <a
+                  key={link.name}
+                  href={link.href}
+                  aria-current={isActive ? 'location' : undefined}
+                  className={cn(
+                    'relative font-mono text-[11px] tracking-[0.14em] uppercase px-3.5 py-2 transition-colors',
+                    isActive ? 'text-teal-dark' : 'text-text-muted hover:text-[#0a0a10]',
+                  )}
+                >
+                  {link.name}
+                  <span
+                    aria-hidden
+                    className={cn(
+                      'absolute left-3.5 right-3.5 -bottom-px h-px bg-teal-dark transition-opacity',
+                      isActive ? 'opacity-100' : 'opacity-0',
+                    )}
+                  />
+                </a>
+              )
+            })}
           </nav>
 
           <div className="hidden md:flex items-center gap-4">
@@ -56,7 +98,7 @@ export default function Navbar() {
           {/* Mobile burger */}
           <button
             onClick={() => setMenuOpen(true)}
-            className="md:hidden flex flex-col gap-[5px] p-2"
+            className="md:hidden flex flex-col gap-[5px] p-2 -mr-2"
             aria-label="Open menu"
           >
             <span className="w-5 h-px bg-[#0a0a10] block" />
@@ -64,6 +106,28 @@ export default function Navbar() {
             <span className="w-3 h-px bg-teal-dark block" />
           </button>
         </div>
+
+        {/* Mobile: section links always in reach */}
+        <nav className="md:hidden border-t border-black/[0.05]">
+          <div className="max-w-6xl mx-auto px-6 h-9 flex items-center justify-between gap-4 overflow-x-auto no-scrollbar">
+            {navLinks.map(link => {
+              const isActive = active === link.href.slice(1)
+              return (
+                <a
+                  key={link.name}
+                  href={link.href}
+                  aria-current={isActive ? 'location' : undefined}
+                  className={cn(
+                    'shrink-0 font-mono text-[10px] tracking-[0.1em] uppercase py-2 border-b transition-colors',
+                    isActive ? 'text-teal-dark border-teal-dark' : 'text-text-muted border-transparent',
+                  )}
+                >
+                  {link.name}
+                </a>
+              )
+            })}
+          </div>
+        </nav>
       </header>
 
       {/* Mobile drawer */}

@@ -37,28 +37,31 @@ const iconMap: Record<string, React.ReactNode> = {
 
 export default function Contact() {
   return (
-    <section id="contact" className="py-36 bg-[#fafaf9]">
-      <div className="max-w-4xl mx-auto px-6 text-center">
-        <motion.div
-          initial={{ opacity: 0, y: 24 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          viewport={{ once: true }}
-          transition={{ duration: 0.6 }}
-        >
-          <p className="font-mono text-[11px] tracking-[0.32em] uppercase text-teal-dark mb-8">Get in touch</p>
+    <section id="contact" className="py-14 md:py-16 bg-[#fafaf9]">
+      <motion.div
+        initial={{ opacity: 0, y: 24 }}
+        whileInView={{ opacity: 1, y: 0 }}
+        viewport={{ once: true }}
+        transition={{ duration: 0.6 }}
+        className="max-w-6xl mx-auto px-6 grid md:grid-cols-[1fr_auto] gap-8 md:gap-16 md:items-end"
+      >
+        <div>
+          <p className="font-mono text-[11px] tracking-[0.32em] uppercase text-teal-dark mb-5">Get in touch</p>
 
-          <h2 className="text-4xl md:text-6xl font-bold text-[#0a0a10] mb-6 leading-[1.06] tracking-tight">
+          <h2 className="text-[2rem] md:text-5xl font-bold text-[#0a0a10] mb-4 leading-[1.06] tracking-tight">
             {contact.headline.map((line, i) => <Fragment key={i}>{line}<br /></Fragment>)}
             <span className="text-gradient">{contact.headlineAccent}</span>
           </h2>
 
-          <p className="text-text-body text-lg leading-relaxed mb-12 max-w-md mx-auto">
+          <p className="text-text-body text-base md:text-lg leading-relaxed max-w-xl">
             {contact.text}
           </p>
+        </div>
 
+        <div className="flex flex-col items-start md:items-end gap-6">
           <a
             href={`mailto:${profile.email}`}
-            className="group inline-flex items-center gap-3 bg-[#0a0a10] text-[#fafaf9] font-mono font-bold text-sm px-10 py-4 rounded-full hover:bg-[#1a1a24] transition-colors mb-14"
+            className="group inline-flex items-center gap-3 bg-[#0a0a10] text-[#fafaf9] font-mono font-bold text-sm px-9 py-4 rounded-full hover:bg-[#1a1a24] transition-colors"
           >
             Say Hello
             <motion.span
@@ -69,7 +72,7 @@ export default function Contact() {
             </motion.span>
           </a>
 
-          <div className="flex items-center justify-center gap-6">
+          <div className="flex items-center gap-6">
             {socialLinks.map((link) => (
               <motion.a
                 key={link.name}
@@ -90,8 +93,8 @@ export default function Contact() {
               </motion.a>
             ))}
           </div>
-        </motion.div>
-      </div>
+        </div>
+      </motion.div>
     </section>
   )
 }

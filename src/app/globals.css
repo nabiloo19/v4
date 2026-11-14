@@ -33,6 +33,7 @@
 
   ::-webkit-scrollbar {
     width: 5px;
+    height: 5px;
   }
   ::-webkit-scrollbar-track {
     background: #f2f1ee;
@@ -46,7 +47,31 @@
   }
 }
 
+@layer base {
+  /* Keep anchored sections clear of the fixed header (taller on phones,
+     where it has a second row of section links). */
+  section[id],
+  [id='skills'],
+  [id='process'] {
+    scroll-margin-top: 96px;
+  }
+  @media (min-width: 768px) {
+    section[id],
+    [id='skills'],
+    [id='process'] {
+      scroll-margin-top: 64px;
+    }
+  }
+}
+
 @layer utilities {
+  .no-scrollbar {
+    scrollbar-width: none;
+  }
+  .no-scrollbar::-webkit-scrollbar {
+    display: none;
+  }
+
   .text-gradient {
     background: linear-gradient(135deg, #007a65 0%, #00c4a3 100%);
     -webkit-background-clip: text;
@@ -57,5 +82,12 @@
   .rule {
     border: none;
     border-top: 1px solid rgba(0, 0, 0, 0.08);
+  }
+}
+
+/* Respect reduced-motion: no smooth scrolling (overrides the scroll-smooth class). */
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto !important;
   }
 }

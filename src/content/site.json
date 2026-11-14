@@ -7,8 +7,8 @@
   },
   "seo": {
     "title": "Nabil Mohammed | Lead Technical Writer",
-    "description": "Nabil Mohammed — Lead Technical Writer at Salla. 7+ years writing API docs, OpenAPI specs, and SDK guides for 10,000+ developers. Built for humans, ready for agents.",
-    "ogDescription": "API docs, OpenAPI specs, and SDK guides built for humans and ready for agents. 7+ years, 440+ API endpoints, 96 tutorials, 10,000+ developers served.",
+    "description": "Nabil Mohammed — Lead Technical Writer at Salla. 7+ years writing API docs, OpenAPI specs, and SDK guides for 75,000+ developers. Built for humans, ready for agents.",
+    "ogDescription": "API docs, OpenAPI specs, and SDK guides built for humans and ready for agents. 7+ years, 440+ API endpoints, 96 tutorials, 75,000+ developers served.",
     "twitterDescription": "API docs, OpenAPI specs, and SDK guides built for humans and ready for agents.",
     "personDescription": "Lead Technical Writer specialising in API documentation, OpenAPI specs, SDK guides, and developer content built for humans and AI agents."
   },
@@ -30,7 +30,7 @@
         "label": "API endpoints"
       },
       {
-        "value": "10k+",
+        "value": "75k+",
         "label": "Developers"
       },
       {
@@ -43,7 +43,7 @@
     "quote": "The gap between a good product and a successful product is often just documentation.",
     "paragraphs": [
       "I'm Nabil Mohammed, Lead Technical Writer and the person developers thank when the docs actually made sense. I go by ==“Dev Docs Wizard”== because I believe that writing clear documentation is less about English and more about empathy for the developer experience.",
-      "Over 7+ years I've worked across Google Developer Groups, governmental research bodies, fintech startups, and one of the Middle East's largest e-commerce platforms. At Salla I manage documentation for 11 developer products, 440+ OpenAPI-compliant API endpoints and 96 tutorials, for a developer community of 10,000+ builders. My docs have driven a **75% improvement** in developer integrations.",
+      "Over 7+ years I've worked across Google Developer Groups, governmental research bodies, fintech startups, and one of the Middle East's largest e-commerce platforms. At Salla I manage documentation for 11 developer products, 440+ OpenAPI-compliant API endpoints and 96 tutorials, for a developer community of 75,000+ builders. My docs have driven a **75% improvement** in developer integrations.",
       "When I'm not in the docs, I'm probably playing video games, rewatching Friends for the 12th time, or finding more elegant ways to explain complex things."
     ],
     "highlights": [
@@ -376,7 +376,7 @@
         "Lead the documentation for 11 developer products and 440+ OpenAPI endpoints, improving developer integrations by 75%.",
         "Designed the information architecture of Salla's developer docs and wrote 96 tutorials and 43 guides across apps, themes, APIs and AI tooling.",
         "Wrote most of the content behind Salla's public MCP server, which AI agents use to build apps and themes on Salla.",
-        "Grew self-service adoption by 58% across 10,000+ developers; led 3 writers in English and Arabic."
+        "Grew self-service adoption by 58% and cut support inquiries by 63% across 75,000+ developers; led 3 writers in English and Arabic."
       ]
     },
     {
